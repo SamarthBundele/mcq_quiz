@@ -1,0 +1,2864 @@
+[
+  {
+    "Sr. No.": 1,
+    "Question": "What is the output of calling m1(null) when both m1(Object) and m1(String) exist?",
+    "Option A": "Object",
+    "Option B": "String",
+    "Option C": "Compile-time Error",
+    "Option D": "Runtime Error",
+    "Correct Answer": "String"
+  },
+  {
+    "Sr. No.": 2,
+    "Question": "What does the following code print? Thread t = Thread.currentThread(); System.out.println(t);",
+    "Option A": "Thread[main,1,main]",
+    "Option B": "Thread[main,5,main]",
+    "Option C": "main thread",
+    "Option D": "Depends on JVM",
+    "Correct Answer": "Thread[main,5,main]"
+  },
+  {
+    "Sr. No.": 3,
+    "Question": "What is the output of a class extending Thread where start() is overridden but run() is called directly?",
+    "Option A": "Start Method Start Method",
+    "Option B": "Run method Run method",
+    "Option C": "Start then Run",
+    "Option D": "Compile-time Error",
+    "Correct Answer": "Run method Run method"
+  },
+  {
+    "Sr. No.": 4,
+    "Question": "What happens when a catch(IOException e) block appears before catch(FileNotFoundException e)?",
+    "Option A": "Runs normally",
+    "Option B": "Prints IO Error",
+    "Option C": "Prints File not found",
+    "Option D": "Compile-time Error",
+    "Correct Answer": "Compile-time Error"
+  },
+  {
+    "Sr. No.": 5,
+    "Question": "Which is NOT a valid method overload?",
+    "Option A": "void fun(int a)",
+    "Option B": "int fun(int a)",
+    "Option C": "void fun(int a, int b)",
+    "Option D": "All are overloads",
+    "Correct Answer": "int fun(int a)"
+  },
+  {
+    "Sr. No.": 6,
+    "Question": "In an EJB bean annotated with @Stateless @Remote @Local, which statement is correct?",
+    "Option A": "Code is correct",
+    "Option B": "Annotations must be on new lines",
+    "Option C": "A bean cannot be both Remote & Local",
+    "Option D": "A bean cannot be Stateless & Local",
+    "Correct Answer": "Code is correct"
+  },
+  {
+    "Sr. No.": 7,
+    "Question": "Which method was added to Map in Java 9?",
+    "Option A": "Map.of(K1,V1,K2,V2,K3,V3)",
+    "Option B": "Map.ofEntries(Entry<K1,V1>…)",
+    "Option C": "Both Option 1 and 2",
+    "Option D": "",
+    "Correct Answer": "Both Option 1 and 2"
+  },
+  {
+    "Sr. No.": 8,
+    "Question": "Which method cannot be overridden in JSP?",
+    "Option A": "getParameter",
+    "Option B": "jspInit",
+    "Option C": "jspDestroy",
+    "Option D": "",
+    "Correct Answer": ""
+  },
+  {
+    "Sr. No.": 9,
+    "Question": "Which connection pool is best for Hibernate?",
+    "Option A": "T4C",
+    "Option B": "T3C",
+    "Option C": "P3C0",
+    "Option D": "C3P0",
+    "Correct Answer": "C3P0"
+  },
+  {
+    "Sr. No.": 10,
+    "Question": "Which is NOT supported by OOP in Java classes?",
+    "Option A": "Multilevel inheritance",
+    "Option B": "Multiple inheritance",
+    "Option C": "Function overloading",
+    "Option D": "Function overriding",
+    "Correct Answer": "Multiple inheritance"
+  },
+  {
+    "Sr. No.": 11,
+    "Question": "For List, which is true?",
+    "Option A": "Can contain String",
+    "Option B": "Only CharSequence",
+    "Option C": "Both String and CharSequence",
+    "Option D": "Any Object",
+    "Correct Answer": "Can contain String"
+  },
+  {
+    "Sr. No.": 12,
+    "Question": "ConcurrentHashMap uses object level lock — true or false?",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "-",
+    "Option D": "-",
+    "Correct Answer": false
+  },
+  {
+    "Sr. No.": 13,
+    "Question": "Which JavaScript engine was replaced by Nashorn in Java 8?",
+    "Option A": "V8",
+    "Option B": "Inscript",
+    "Option C": "Rhino",
+    "Option D": "Narcicious",
+    "Correct Answer": "Rhino"
+  },
+  {
+    "Sr. No.": 14,
+    "Question": "Two types of Streams in Java 8 are:",
+    "Option A": "Parallel & Random",
+    "Option B": "Sequential & Random",
+    "Option C": "Sequential & Parallel",
+    "Option D": "Random & Synchronized",
+    "Correct Answer": "Sequential & Parallel"
+  },
+  {
+    "Sr. No.": 15,
+    "Question": "Lambda expressions can be serialized if:",
+    "Option A": "Captured args serializable",
+    "Option B": "Target type serializable",
+    "Option C": "Both A & B",
+    "Option D": "",
+    "Correct Answer": "Both A & B"
+  },
+  {
+    "Sr. No.": 16,
+    "Question": "Running time of TreeSet is proportional to:",
+    "Option A": "log n",
+    "Option B": "n²",
+    "Option C": "n",
+    "Option D": "n³",
+    "Correct Answer": "log n"
+  },
+  {
+    "Sr. No.": 17,
+    "Question": "Correct JNDI statement:",
+    "Option A": "JNDI is directory service",
+    "Option B": "Only for EJB lookups",
+    "Option C": "Offers location transparency",
+    "Option D": "Can read but not write",
+    "Correct Answer": "Offers location transparency"
+  },
+  {
+    "Sr. No.": 18,
+    "Question": "Check transaction condition in BMT using:",
+    "Option A": "JNDI lookup",
+    "Option B": "Connection.getStatus()",
+    "Option C": "EJBContext.getStatus()",
+    "Option D": "UserTransaction.getStatus()",
+    "Correct Answer": "UserTransaction.getStatus()"
+  },
+  {
+    "Sr. No.": 19,
+    "Question": "For RMI remote interface:",
+    "Option A": "Must extend Remote",
+    "Option B": "Methods must throw RemoteException",
+    "Option C": "Both A & B",
+    "Option D": "",
+    "Correct Answer": "Both A & B"
+  },
+  {
+    "Sr. No.": 20,
+    "Question": "Difference between forward() and sendRedirect()",
+    "Option A": "Forward = server-side, Redirect = client-side",
+    "Option B": "Forward = client-side",
+    "Option C": "Forward can go to external URL",
+    "Option D": "",
+    "Correct Answer": "Option A"
+  },
+  {
+    "Sr. No.": 21,
+    "Question": "Benefits of Stream API:",
+    "Option A": "Functional style",
+    "Option B": "Parallel/pipeline",
+    "Option C": "Better performance",
+    "Option D": "All of above",
+    "Correct Answer": "All of above"
+  },
+  {
+    "Sr. No.": 22,
+    "Question": "Decorator Pattern behavior achieved using:",
+    "Option A": "Inheritance",
+    "Option B": "Aggregation",
+    "Option C": "Composition",
+    "Option D": "Generalization",
+    "Correct Answer": "Composition"
+  },
+  {
+    "Sr. No.": 23,
+    "Question": "Which MVC statement is true?",
+    "Option A": "Uses Observer pattern",
+    "Option B": "Nested using Factory",
+    "Option C": "Controller heavy",
+    "Option D": "Not relevant today",
+    "Correct Answer": "Uses Observer pattern"
+  },
+  {
+    "Sr. No.": 24,
+    "Question": "Which pattern provides surrogate/placeholder?",
+    "Option A": "Singleton",
+    "Option B": "Proxy",
+    "Option C": "IoC",
+    "Option D": "",
+    "Correct Answer": "Proxy"
+  },
+  {
+    "Sr. No.": 25,
+    "Question": "Which is true about Abstract Factory?",
+    "Option A": "Multiple factory implementations",
+    "Option B": "Key-based creation",
+    "Option C": "Singleton not single",
+    "Option D": "All",
+    "Correct Answer": "Multiple factory implementations"
+  },
+  {
+    "Sr. No.": 26,
+    "Question": "Annotation to load Spring container in JUnit test:",
+    "Option A": "@Component",
+    "Option B": "@Configuration",
+    "Option C": "@ContextConfiguration",
+    "Option D": "@Configurable",
+    "Correct Answer": "@ContextConfiguration"
+  },
+  {
+    "Sr. No.": 27,
+    "Question": "FALSE statement about Spring bean naming:",
+    "Option A": "Bean without ID allowed",
+    "Option B": "Bean can have multiple names",
+    "Option C": "Bean id and name both valid",
+    "Option D": "Bean may get multiple names via tag",
+    "Correct Answer": "Bean may get multiple names via tag"
+  },
+  {
+    "Sr. No.": 28,
+    "Question": "Spring aspects are implemented as:",
+    "Option A": "Direct methods",
+    "Option B": "Proxies wrapping methods",
+    "Option C": "Auto implemented",
+    "Option D": "",
+    "Correct Answer": "Proxies wrapping methods"
+  },
+  {
+    "Sr. No.": 29,
+    "Question": "Which is not supported in Spring MVC?",
+    "Option A": "JdbcDaoSupport",
+    "Option B": "HibernateDaoSupport",
+    "Option C": "JdoDaoSupport",
+    "Option D": "JavaDaoSupport",
+    "Correct Answer": "JavaDaoSupport"
+  },
+  {
+    "Sr. No.": 30,
+    "Question": "Which Hibernate object syncs with DB at end of transaction?",
+    "Option A": "Transient",
+    "Option B": "Detached",
+    "Option C": "Persistent",
+    "Option D": "",
+    "Correct Answer": "Persistent"
+  },
+  {
+    "Sr. No.": 31,
+    "Question": "Map entire Hibernate class as immutable using:",
+    "Option A": "mutable=\"false\"",
+    "Option B": "ismutable=\"false\"",
+    "Option C": "ismutable=\"no\"",
+    "Option D": "",
+    "Correct Answer": "mutable=\"false\""
+  },
+  {
+    "Sr. No.": 32,
+    "Question": "False statement about Hibernate Session:",
+    "Option A": "Lightweight",
+    "Option B": "Single unit of work",
+    "Option C": "Can be shared across threads",
+    "Option D": "",
+    "Correct Answer": "Can be shared across threads"
+  },
+  {
+    "Sr. No.": 33,
+    "Question": "Which statements are correct? S1,S2,S3 about Hibernate identity",
+    "Option A": "S1 only",
+    "Option B": "S1 & S2",
+    "Option C": "S2 & S3",
+    "Option D": "All S1,S2,S3",
+    "Correct Answer": "All S1,S2,S3"
+  },
+  {
+    "Sr. No.": 34,
+    "Question": "Feature NOT introduced in Java 9",
+    "Option A": "MR JAR",
+    "Option B": "Private methods in interfaces",
+    "Option C": "Lambda expressions",
+    "Option D": "HTML5 docs",
+    "Correct Answer": "Lambda expressions"
+  },
+  {
+    "Sr. No.": 35,
+    "Question": "defaultExecutor() in CompletableFuture describes what?",
+    "Option A": "Complete with timeout",
+    "Option B": "Complete exceptionally",
+    "Option C": "Returns new incomplete future",
+    "Option D": "",
+    "Correct Answer": ""
+  },
+  {
+    "Sr. No.": 36,
+    "Question": "What happens if thread.run() is called directly?",
+    "Option A": "New thread starts",
+    "Option B": "run() executes in main thread",
+    "Option C": "Runtime error",
+    "Option D": "Compile error",
+    "Correct Answer": "run() executes in main thread"
+  },
+  {
+    "Sr. No.": 37,
+    "Question": "If we try to invoke start() on a dead thread, which will happen?",
+    "Option A": "Nothing happens",
+    "Option B": "The thread restarts",
+    "Option C": "Compile-time error",
+    "Option D": "Runtime exception will occur",
+    "Correct Answer": "D — Runtime exception will occur"
+  },
+  {
+    "Sr. No.": 38,
+    "Question": "What is the output of the code with try-catch-finally that returns values?",
+    "Option A": true,
+    "Option B": 2,
+    "Option C": 3,
+    "Option D": "Compilation error",
+    "Correct Answer": "C — 3"
+  },
+  {
+    "Sr. No.": 39,
+    "Question": "Which of the following methods was added to Map in Java 9?",
+    "Option A": "Map.of(k1,v1,k2,v2,k3,v3)",
+    "Option B": "Map.ofEntries(Map.Entry...)",
+    "Option C": "Both of the above",
+    "Option D": "",
+    "Correct Answer": "D — None"
+  },
+  {
+    "Sr. No.": 40,
+    "Question": "What are the events in a JSP page?",
+    "Option A": "jspInit()",
+    "Option B": "jspLoad()",
+    "Option C": "_jspService()",
+    "Option D": "jspDestroy()",
+    "Correct Answer": "B — jspLoad()"
+  },
+  {
+    "Sr. No.": 41,
+    "Question": "Spring Web Services server-side email handling: X implements Y to send response. Which is correct?",
+    "Option A": "X: MailMessageReceiver Y: SMTP",
+    "Option B": "X: MailMessageReceiver Y: PCP3",
+    "Option C": "X: EmailReceiver Y: SMTP",
+    "Option D": "X: EmailSender Y: PCP3",
+    "Correct Answer": "A — X: MailMessageReceiver Y: PCP3"
+  },
+  {
+    "Sr. No.": 42,
+    "Question": "Which component is responsible for pulling, parsing and compiling Hibernate mapping documents?",
+    "Option A": "Configuration object",
+    "Option B": "SessionFactory",
+    "Option C": "Session",
+    "Option D": "Criteria",
+    "Correct Answer": "A — Configuration object"
+  },
+  {
+    "Sr. No.": 43,
+    "Question": "Which of the following is used to hide information in OOP?",
+    "Option A": "Encapsulation",
+    "Option B": "Inheritance",
+    "Option C": "Polymorphism",
+    "Option D": "Abstraction",
+    "Correct Answer": "A — Encapsulation"
+  },
+  {
+    "Sr. No.": 44,
+    "Question": "For List<CharSequence>, which is true?",
+    "Option A": "It can contain String types",
+    "Option B": "It can contain only CharSequence types",
+    "Option C": "It can contain both String and CharSequence types",
+    "Option D": "It can contain any Object",
+    "Correct Answer": "C — This collection can contain both String and CharSequence type."
+  },
+  {
+    "Sr. No.": 45,
+    "Question": "It makes sense to replace lambda expressions with method references when:",
+    "Option A": "Always",
+    "Option B": "Never",
+    "Option C": "Only for performance",
+    "Option D": "Depends if lambda has other operations besides the value",
+    "Correct Answer": "D — Depends on whether the lambda has other operations in addition to the value."
+  },
+  {
+    "Sr. No.": 46,
+    "Question": "Can a lambda expression be passed where a functional interface is expected?",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "Only with casting",
+    "Option D": "Only in Java 9+",
+    "Correct Answer": "A — TRUE"
+  },
+  {
+    "Sr. No.": 47,
+    "Question": "How is a lambda represented by the JVM at runtime?",
+    "Option A": "As a static inner class",
+    "Option B": "As a dynamically created lambda object/type at runtime",
+    "Option C": "As a primitive",
+    "Option D": "As a regular anonymous class",
+    "Correct Answer": "B — As a dynamically created lambda object with a dynamically created type at runtime"
+  },
+  {
+    "Sr. No.": 48,
+    "Question": "What happens with the code snippet involving java.lang.Runnable = 0 - { ... }?",
+    "Option A": "Runs and prints something",
+    "Option B": "Runs but with warnings",
+    "Option C": "Produces runtime exception",
+    "Option D": "Compilation error",
+    "Correct Answer": "A — Code will encounter compilation error"
+  },
+  {
+    "Sr. No.": 49,
+    "Question": "When will the finally block NOT run?",
+    "Option A": "When exception occurs",
+    "Option B": "When method returns early",
+    "Option C": "When System.exit() is called",
+    "Option D": "Never — it always runs",
+    "Correct Answer": "C — When System.exit() is called"
+  },
+  {
+    "Sr. No.": 50,
+    "Question": "About JNDI in EJB concepts: which is correct?",
+    "Option A": "JNDI is itself a directory service",
+    "Option B": "JNDI is only provided by EJB container",
+    "Option C": "JNDI offers location transparency",
+    "Option D": "JNDI can read but not write objects",
+    "Correct Answer": "C — JNDI offers location transparency."
+  },
+  {
+    "Sr. No.": 51,
+    "Question": "Under what transaction attribute settings will container throw exception upon invoking getRollbackOnly()?",
+    "Option A": "Always",
+    "Option B": "Sometimes",
+    "Option C": "Never",
+    "Option D": "Only in BMT",
+    "Correct Answer": "C — Never"
+  },
+  {
+    "Sr. No.": 52,
+    "Question": "Benefits of using Stream API include:",
+    "Option A": "Functional-style programming",
+    "Option B": "Parallel & pipelining",
+    "Option C": "Better performance",
+    "Option D": "All of above",
+    "Correct Answer": "D — All of above"
+  },
+  {
+    "Sr. No.": 53,
+    "Question": "Which structural pattern uses shared objects to minimize memory use?",
+    "Option A": "Singleton",
+    "Option B": "Flyweight",
+    "Option C": "Adapter",
+    "Option D": "Proxy",
+    "Correct Answer": "B — Flyweight"
+  },
+  {
+    "Sr. No.": 54,
+    "Question": "To ensure same JFrame instance shown every time, which pattern to use?",
+    "Option A": "Factory",
+    "Option B": "Prototype",
+    "Option C": "Singleton",
+    "Option D": "Bridge",
+    "Correct Answer": "C — Singleton"
+  },
+  {
+    "Sr. No.": 55,
+    "Question": "If two classes are defined by composition, which is true?",
+    "Option A": "Composite class has components closely as collaborators",
+    "Option B": "Components are independent singletons",
+    "Option C": "Composition implies inheritance",
+    "Option D": "Components are loosely coupled via interfaces",
+    "Correct Answer": "A — Composite class has components close as collaborative"
+  },
+  {
+    "Sr. No.": 56,
+    "Question": "Which statements about State pattern are true?",
+    "Option A": "Only A",
+    "Option B": "Both B and C",
+    "Option C": "Only C",
+    "Option D": "",
+    "Correct Answer": "B — Both B and C"
+  },
+  {
+    "Sr. No.": 57,
+    "Question": "In Spring declarative transactions, is annotating classes with @Transactional sufficient?",
+    "Option A": "Yes, always",
+    "Option B": "Yes, if on methods",
+    "Option C": "No, you must enable component scanning",
+    "Option D": "No, you must add @EnableTransactionManagement",
+    "Correct Answer": "D — It is necessary to add @EnableTransactionManagement in the configuration"
+  },
+  {
+    "Sr. No.": 58,
+    "Question": "Global transactions are managed by application server using:",
+    "Option A": "JDBC",
+    "Option B": "JMS",
+    "Option C": "JTA",
+    "Option D": "JNDI",
+    "Correct Answer": "C — JTA"
+  },
+  {
+    "Sr. No.": 59,
+    "Question": "What does Spring use to provide declarative transaction management without EJB?",
+    "Option A": "JDBC",
+    "Option B": "JMX",
+    "Option C": "Reflection",
+    "Option D": "AOP",
+    "Correct Answer": "D — AOP"
+  },
+  {
+    "Sr. No.": 60,
+    "Question": "Which of the following is not supported in Spring MVC?",
+    "Option A": "JdbcDaoSupport",
+    "Option B": "HibernateDaoSupport",
+    "Option C": "JdoDaoSupport",
+    "Option D": "JavaDaoSupport",
+    "Correct Answer": "D — JavaDaoSupport"
+  },
+  {
+    "Sr. No.": 61,
+    "Question": "Which method uses @RequestMapping with a class?",
+    "Option A": "@RequestMapping on method only",
+    "Option B": "@PathVariable at class level",
+    "Option C": "@Controller @RequestMapping(\"/home\") public class HomeController { }",
+    "Option D": "@RestController only",
+    "Correct Answer": "C — @Controller @RequestMapping(\"/home\") public class HomeController { }"
+  },
+  {
+    "Sr. No.": 62,
+    "Question": "Hibernate apps work more efficiently with:",
+    "Option A": "High-level EJB objects",
+    "Option B": "ORM frameworks only",
+    "Option C": "Simple Java classes & POJOs",
+    "Option D": "JDBC only",
+    "Correct Answer": "C — both of the above (Simple java classes & plain old java objects)"
+  },
+  {
+    "Sr. No.": 63,
+    "Question": "Which HQL returns all persistent objects of a Hibernate application?",
+    "Option A": "from Entity e where ...",
+    "Option B": "select * from table",
+    "Option C": "select e from Entity e where e.id is not null",
+    "Option D": "None of the above",
+    "Correct Answer": "D — none of the above"
+  },
+  {
+    "Sr. No.": 64,
+    "Question": "REPL stands for:",
+    "Option A": "Read Eval Print Loop",
+    "Option B": "Run Execute Print Loop",
+    "Option C": "Read Execute Process Loop",
+    "Option D": "Remote Eval Print Link",
+    "Correct Answer": "A — Read Eval Print Loop"
+  },
+  {
+    "Sr. No.": 65,
+    "Question": "Which is correct about try-with-resources in Java?",
+    "Option A": "It only works with AutoCloseable",
+    "Option B": "Resources closed in reverse order",
+    "Option C": "It suppresses exceptions thrown in finally",
+    "Option D": "All of the above",
+    "Correct Answer": "D — All of the above"
+  },
+  {
+    "Sr. No.": 66,
+    "Question": "Statements about Hibernate interfaces R1–R4 — which is correct?",
+    "Option A": "Only R1 & R2",
+    "Option B": "Only R3",
+    "Option C": "R1, R2 & R4",
+    "Option D": "All of the above",
+    "Correct Answer": "D — All of the above"
+  },
+  {
+    "Sr. No.": 67,
+    "Question": "Which of the following is true about ActiveMQ?",
+    "Option A": "Large files cannot be sent",
+    "Option B": "ActiveMQ does not support clustering",
+    "Option C": "Two brokers cannot operate on same DB set",
+    "Option D": "None of the above",
+    "Correct Answer": "C — Two brokers cannot operate on the same set of databases"
+  },
+  {
+    "Sr. No.": 68,
+    "Question": "Which method is used before writing output in Servlets?",
+    "Option A": "setPageType",
+    "Option B": "setContextType",
+    "Option C": "setResponseType",
+    "Option D": "setContentType",
+    "Correct Answer": "D — setContentType"
+  },
+  {
+    "Sr. No.": 69,
+    "Question": "Fields in an interface are implicitly:",
+    "Option A": "static",
+    "Option B": "public",
+    "Option C": "final",
+    "Option D": "all of the above",
+    "Correct Answer": "D — All of the above"
+  },
+  {
+    "Sr. No.": 70,
+    "Question": "putIfAbsent(key, value) is part of which collection?",
+    "Option A": "ConcurrentMap",
+    "Option B": "AbsNet",
+    "Option C": "Argonist",
+    "Option D": "SortedMap",
+    "Correct Answer": "A — ConcurrentMap"
+  },
+  {
+    "Sr. No.": 71,
+    "Question": "Is Static Initializer allowed in EJB?",
+    "Option A": "Yes, always",
+    "Option B": "Only in Stateless Beans",
+    "Option C": "Only in Stateful Beans",
+    "Option D": "No, not allowed",
+    "Correct Answer": "D — No, not allowed"
+  },
+  {
+    "Sr. No.": 72,
+    "Question": "What happens if a remote client invokes method on an Entity that has been removed?",
+    "Option A": "Nothing happens",
+    "Option B": "Returns null",
+    "Option C": "NoSuchObjectException thrown",
+    "Option D": "Container recreates entity",
+    "Correct Answer": "C — NoSuchObjectException"
+  },
+  {
+    "Sr. No.": 73,
+    "Question": "Lambda expressions allow functional-like programming but do NOT guarantee immutability. True or false?",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "Only in Java 11+",
+    "Option D": "Depends on JVM",
+    "Correct Answer": "A — True"
+  },
+  {
+    "Sr. No.": 74,
+    "Question": "Structural pattern using shared objects to minimize memory use is?",
+    "Option A": "Singleton",
+    "Option B": "Prototype",
+    "Option C": "Weak pattern",
+    "Option D": "None of the given options",
+    "Correct Answer": "D — None (Correct pattern is Flyweight)"
+  },
+  {
+    "Sr. No.": 75,
+    "Question": "All mapping files in Hibernate are referred from:",
+    "Option A": "Context file",
+    "Option B": "Server file",
+    "Option C": "Hibernate configuration file",
+    "Option D": "",
+    "Correct Answer": "C — Hibernate configuration file"
+  },
+  {
+    "Sr. No.": 76,
+    "Question": "Diamond operator (<>) was introduced in which Java version?",
+    "Option A": "Java 5",
+    "Option B": "Java 6",
+    "Option C": "Java 7",
+    "Option D": "Java 8",
+    "Correct Answer": "C — Java 7"
+  },
+  {
+    "Sr. No.": 77,
+    "Question": "Context-conflict location used in SYNC MDC relates to: (you asked but no answer was finalized) → choose closest valid option",
+    "Option A": "Logging frameworks",
+    "Option B": "JVM class loaders",
+    "Option C": "Spring context mapping",
+    "Option D": "None of the above",
+    "Correct Answer": "D — None of the above"
+  },
+  {
+    "Sr. No.": 78,
+    "Question": "As per EJB concepts, there are 2 session beans, Hello1 and Hello2. Hello1 has to update database A and database B and Hello2 only has to update database B. Is the given type of transaction supported by EJB?",
+    "Option A": "This is an example of nested transactions, not supported by EJB",
+    "Option B": "This is an example of nested transactions, supported by EJB",
+    "Option C": "This is an example of distributed transactions and will be supported by EJB",
+    "Option D": "This is not an example of distributed transactions and will not be supported by EJB",
+    "Correct Answer": "C"
+  },
+  {
+    "Sr. No.": 79,
+    "Question": "Which of the following method is added to Map in Java 9?",
+    "Option A": "static Map of(K k1. V v1, K k2, V v2, K k3, V v3)",
+    "Option B": "Map ofMap(K k1. V v1. K k2, V v2, K k3, V v3)",
+    "Option C": "Both Option 1 and 2",
+    "Option D": "",
+    "Correct Answer": "C"
+  },
+  {
+    "Sr. No.": 80,
+    "Question": "Which of the following methods cannot be overridden in a JSP page",
+    "Option A": "getParameter()",
+    "Option B": "jspinit()",
+    "Option C": "jspDestroy()",
+    "Option D": "None of the above",
+    "Correct Answer": "D"
+  },
+  {
+    "Sr. No.": 81,
+    "Question": "As per the concepts of Java Spring, which interface provides a mechanism to register objects that are created outside the container?",
+    "Option A": "DefaultListableBeanFactory",
+    "Option B": "AutowireCapableBeanFactory",
+    "Option C": "SimpleBeanFactory",
+    "Option D": "StaticBeanFactory",
+    "Correct Answer": "B"
+  },
+  {
+    "Sr. No.": 82,
+    "Question": "Which of the following connection pools is best for hibenate",
+    "Option A": "c3p0",
+    "Option B": "p3c0",
+    "Option C": "t3do",
+    "Option D": "14do",
+    "Correct Answer": "A"
+  },
+  {
+    "Sr. No.": 83,
+    "Question": "Which of the following is used to hide information in object oriented programming? a. Encapsulation b. Inheritance c. Abstraction d. Polymorphism",
+    "Option A": "A,c",
+    "Option B": "A,b",
+    "Option C": "B,c",
+    "Option D": "A,d",
+    "Correct Answer": "A"
+  },
+  {
+    "Sr. No.": 84,
+    "Question": "For look up of indexed elements an ArrayList is more efficient than a LinkedList",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "—",
+    "Option D": "—",
+    "Correct Answer": true
+  },
+  {
+    "Sr. No.": 85,
+    "Question": "Which feature of Java 8 enables us to create a work stealing thread pool using all available processors at its target to maintain enough threads for supporting the given parallelism level?",
+    "Option A": "workPool",
+    "Option B": "threadPool",
+    "Option C": "work ThreadPool",
+    "Option D": "newWorkStealing Pool",
+    "Correct Answer": "D"
+  },
+  {
+    "Sr. No.": 86,
+    "Question": "What is optional class in Java 8",
+    "Option A": "It is used to avoid null checks.",
+    "Option B": "It is used to avoid \"NullPointerException\".",
+    "Option C": "It is used to represent optional values those either exist or do not exist.",
+    "Option D": "It is a bounded collection that is it contains at most one element only.",
+    "Correct Answer": "All of above"
+  },
+  {
+    "Sr. No.": 87,
+    "Question": "Which of the following features wee introduced in Java 8",
+    "Option A": "Lambda Expressions",
+    "Option B": "Default Methods",
+    "Option C": "Method parameter reflection",
+    "Option D": "Java Platform Module System",
+    "Correct Answer": "A, B and C"
+  },
+  {
+    "Sr. No.": 88,
+    "Question": "What is the return type of lambda expression",
+    "Option A": "void",
+    "Option B": "Object",
+    "Option C": "Function",
+    "Option D": "String",
+    "Correct Answer": "B"
+  },
+  {
+    "Sr. No.": 89,
+    "Question": "Consider an instance of a collection of type List",
+    "Option A": "This collection can contain a String types",
+    "Option B": "This collection can contain only CharSequence types",
+    "Option C": "This collection can contain both String and CharSequence types",
+    "Option D": "The collection can contain any Object.",
+    "Correct Answer": "C"
+  },
+  {
+    "Sr. No.": 90,
+    "Question": "As per EJB concepts, which of the following statements about JNDI (Java Naming and Directory Interfaced) is true?",
+    "Option A": "JNDI is a directory service like LDAP or Netscape Directory Server.",
+    "Option B": "JNDI is a service only provided by EJB container and used for EJB's look up.",
+    "Option C": "JNDI offers location transparency.",
+    "Option D": "JNDI can be used to read java objects but not write back from directories",
+    "Correct Answer": "C"
+  },
+  {
+    "Sr. No.": 91,
+    "Question": "As per EJB concepts, in EJB 3.0 entity bean, which of the following classes are required? A. PrimaryKey Class B. Remote/Local Bean Class C. Remote/Local Home Interface D. Remote/Local Business Interface E. A single entity class",
+    "Option A": "Only A",
+    "Option B": "Only E",
+    "Option C": "Both A and C",
+    "Option D": "B, D and E",
+    "Correct Answer": "Only E"
+  },
+  {
+    "Sr. No.": 92,
+    "Question": "What should be done for an interface to act as a remote interface? A.It must extend java.rmi.Remote B.Each method must declare java.rmi.RemoteException",
+    "Option A": "Only A",
+    "Option B": "Only B",
+    "Option C": "Both A and B",
+    "Option D": "",
+    "Correct Answer": "Both A and B"
+  },
+  {
+    "Sr. No.": 93,
+    "Question": "What is the significant functionality of the method findAncestorWithClass()?",
+    "Option A": "The method findAncestorWithClass() is used to get a reference to the outer most Tag for the given Class object.",
+    "Option B": "The method returns the immediate inner-most tag for the given Class object",
+    "Option C": "The method returns a list of parent Tags from the Tag implementation where it is called",
+    "Option D": "None of these",
+    "Correct Answer": "A"
+  },
+  {
+    "Sr. No.": 94,
+    "Question": "How will you define a bean for a static inner class in XML?",
+    "Option A": "",
+    "Option B": "",
+    "Option C": "",
+    "Option D": "",
+    "Correct Answer": "C"
+  },
+  {
+    "Sr. No.": 95,
+    "Question": "Following are benifits of using stream api",
+    "Option A": "ability to write in Functional Style programming",
+    "Option B": "perform Parallel and Pipelining operations",
+    "Option C": "ability to achieve better performance",
+    "Option D": "All of above",
+    "Correct Answer": "D"
+  },
+  {
+    "Sr. No.": 96,
+    "Question": "As per design patterns concepts, which of the following options creates an instance of several families of classes and provides an interface for creating families of related or dependent objects without specifying their concrete classes?",
+    "Option A": "Abstract Factory",
+    "Option B": "Factory",
+    "Option C": "Adapter",
+    "Option D": "None of the given options",
+    "Correct Answer": "A"
+  },
+  {
+    "Sr. No.": 97,
+    "Question": "As per design patterns concepts, which of the following behavioral patterns allows loose coupling between classes by being the only class that has detailed knowledge of their methods and keeping objects from referring to each other explicitly?",
+    "Option A": "Builder",
+    "Option B": "Mediator",
+    "Option C": "Memento",
+    "Option D": "",
+    "Correct Answer": "B"
+  },
+  {
+    "Sr. No.": 98,
+    "Question": "As per design patterns concepts, which of the following statements is true",
+    "Option A": "An Abstract Factory pattern usually has multiple factory implementations",
+    "Option B": "In Abstract Factory pattern, generally a key or a parameter is provided and the method obtains an object of that type.",
+    "Option C": "The Singleton design pattern is a creational type of design pattern which does not assure to have only a single instance of a class.",
+    "Option D": "All of the given options",
+    "Correct Answer": "A"
+  },
+  {
+    "Sr. No.": 99,
+    "Question": "Which of the following options is a disadvantage of using a static factory method instead of Constructors while implementing the factory pattern?",
+    "Option A": "Static factory methods, unlike constructors, have names.",
+    "Option B": "Static factory methods, unlike constructors, need not create a new object each time it is invoked",
+    "Option C": "Static factory methods, unlike constructors, can return an object of any subtype of their return type.",
+    "Option D": "Static factory methods often require classes to have private constructors. Such classes cannot be subclassed.",
+    "Correct Answer": "D"
+  },
+  {
+    "Sr. No.": 100,
+    "Question": "In Spring Framework's declarative transaction implementation, is it sufficient to annotate the classes with the @Transactional annotation?",
+    "Option A": "No",
+    "Option B": "Yes",
+    "Option C": "No. has to be added in configuration",
+    "Option D": "It is necessary to add @EnableTransactionManagement in the configuration",
+    "Correct Answer": "D"
+  },
+  {
+    "Sr. No.": 101,
+    "Question": "Which of the following is the code for using @Autowired in a controller code?",
+    "Option A": "Option 1",
+    "Option B": "Option 2",
+    "Option C": "Option 3",
+    "Option D": "Option 4",
+    "Correct Answer": "D"
+  },
+  {
+    "Sr. No.": 102,
+    "Question": "What is the name of the application logic that spans multiple application objects",
+    "Option A": "Tier",
+    "Option B": "Layer",
+    "Option C": "Cross cutting concern",
+    "Option D": "",
+    "Correct Answer": "C"
+  },
+  {
+    "Sr. No.": 103,
+    "Question": "What is the extension used for the hibernate mapping file?",
+    "Option A": ".hbn",
+    "Option B": ".hibernate",
+    "Option C": ".hbm.xml",
+    "Option D": "cfg.xml",
+    "Correct Answer": "C"
+  },
+  {
+    "Sr. No.": 104,
+    "Question": "Consider the following statements: S1- When Hibernate places an object in the database, it must be sure that each row is unique… S2… S3… Which of the above statements is correct?",
+    "Option A": "S1",
+    "Option B": "S1 & S2",
+    "Option C": "All",
+    "Option D": "",
+    "Correct Answer": "C"
+  },
+  {
+    "Sr. No.": 105,
+    "Question": "Choose the correct option. All mapping files in Hibernate are referred from:",
+    "Option A": "context.",
+    "Option B": "server.",
+    "Option C": "Hibernate configuration file.",
+    "Option D": "none of the above",
+    "Correct Answer": "C"
+  },
+  {
+    "Sr. No.": 106,
+    "Question": "Choose the correct option. Which of the following interfaces helps to keep Hibernate applications portable between different kinds of execution environments?",
+    "Option A": "Query",
+    "Option B": "Session",
+    "Option C": "Transaction",
+    "Option D": "None of the above",
+    "Correct Answer": "B"
+  },
+  {
+    "Sr. No.": 107,
+    "Question": "The full form is: REPL – Read-Eval-Print Loop.",
+    "Option A": "—",
+    "Option B": "—",
+    "Option C": "—",
+    "Option D": "—",
+    "Correct Answer": "A"
+  },
+  {
+    "Sr. No.": 108,
+    "Question": "A program element annotated with @Deprecated means it should not be used for",
+    "Option A": "Its usage may leads to errors",
+    "Option B": "It may be incompatible in future version.",
+    "Option C": "Both Option 1 and 2",
+    "Option D": "",
+    "Correct Answer": "C"
+  },
+  {
+    "Sr. No.": 109,
+    "Question": "Which of the following correctly describes the failedStage() method of CompletableFuture Interface",
+    "Option A": "Returns a new incomplete CompletableFuture…",
+    "Option B": "Returns a new Completable Future…",
+    "Option C": "Returns a new CompletionStage…",
+    "Option D": "Returns a new CompletionStage which is already completed exceptionally…",
+    "Correct Answer": "D"
+  },
+  {
+    "Sr. No.": 110,
+    "Question": "Active Message Queue also supports priority consumption (using priority queue) so that high priority messages are consumed before low priority message. Which of the following attribute sets a priority queue in place for ActiveMQ?",
+    "Option A": "prioritizedMessages=\"true\"",
+    "Option B": "prioritizedMessages=\"false\"",
+    "Option C": "msg.priotyQueue=1",
+    "Option D": "msg.priotyQueue=2",
+    "Correct Answer": "prioritizedMessages=\"true\""
+  },
+  {
+    "Sr. No.": 111,
+    "Question": "In Deployment descriptor which sub element in <listener> tag helps in declaring a listener?",
+    "Option A": "servlet",
+    "Option B": "servlet-mapping",
+    "Option C": "listener-name",
+    "Option D": "listener-class",
+    "Correct Answer": "listener-class"
+  },
+  {
+    "Sr. No.": 112,
+    "Question": "For the URL given below which of the following HTTP request gets generated? http://www.example.com/abcd/index.html",
+    "Option A": "GET",
+    "Option B": "POST",
+    "Option C": "HEAD",
+    "Option D": "NET",
+    "Correct Answer": "GET"
+  },
+  {
+    "Sr. No.": 113,
+    "Question": "Which one of the following is equivalent to line 1? (Choose the most appropriate option) interface ITest1 { void show(); // Line 1 }",
+    "Option A": "public final not final",
+    "Option B": "public abstract not final",
+    "Option C": "static abstract not final",
+    "Option D": "hide data not final",
+    "Correct Answer": "public abstract not final"
+  },
+  {
+    "Sr. No.": 114,
+    "Question": "putIfAbsent(key, value) is a part of which collection?",
+    "Option A": "ConcurrentMap",
+    "Option B": "HashMap",
+    "Option C": "ArrayList",
+    "Option D": "SortedMap",
+    "Correct Answer": "ConcurrentMap"
+  },
+  {
+    "Sr. No.": 115,
+    "Question": "The field in an interface is implicitly defined as ______",
+    "Option A": "static",
+    "Option B": "public",
+    "Option C": "final",
+    "Option D": "All of the above",
+    "Correct Answer": "All of the above"
+  },
+  {
+    "Sr. No.": 116,
+    "Question": "Which of the following is used to achieve runtime polymorphism?",
+    "Option A": "Method overriding",
+    "Option B": "Method overloading",
+    "Option C": "Return type",
+    "Option D": "Virtual function",
+    "Correct Answer": "Method overriding"
+  },
+  {
+    "Sr. No.": 117,
+    "Question": "What will be the output of the following code? class DemoCode { public static void main(String arg[]) { byte b = 1; b += 1; System.out.println(b); } }",
+    "Option A": true,
+    "Option B": 2,
+    "Option C": "1 2",
+    "Option D": "None of these",
+    "Correct Answer": 2
+  },
+  {
+    "Sr. No.": 118,
+    "Question": "Which of the following interface contains hasPrevious() method?",
+    "Option A": "Iterator",
+    "Option B": "ListIterator",
+    "Option C": "Both",
+    "Option D": "None of the above",
+    "Correct Answer": "ListIterator"
+  },
+  {
+    "Sr. No.": 119,
+    "Question": "As per EJB concepts, in a primary key class, what is the purpose of the equals() and hashCode() methods?",
+    "Option A": "The given methods are required so that if there is an exception in the instance while getting the value from store, the store should give the correct value that logic is similar to get/store and post results() in EJB 1.x",
+    "Option B": "The equals() method returns a boolean value when PKs filter the hashCode() value - a method used for validating when the PK is number",
+    "Option C": "The equals() method returns a boolean value indicating if the object is equal so that the hashCode() is used by container to check the actual implementation for PK for the primary key",
+    "Option D": "The equals() method returns a boolean value indicating if the object is equal so that the hashCode() is used by container to check the actual implementation for PK for the primary key",
+    "Correct Answer": "The equals() method returns a boolean value indicating if the object is equal so that the hashCode() is used by container to check the actual implementation for PK for the primary key"
+  },
+  {
+    "Sr. No.": 120,
+    "Question": "As per EJB concepts, is it possible to have a static initializer block in EJB?",
+    "Option A": "It's not possible to have static initializer block in EJB",
+    "Option B": "It is technically possible but it is not supported",
+    "Option C": "Compiler would not complain but run time exception would be thrown",
+    "Option D": "None of the given options",
+    "Correct Answer": "It is technically possible but it is not supported"
+  },
+  {
+    "Sr. No.": 121,
+    "Question": "Which of the following method is added to Map in Java 9?",
+    "Option A": "static Map.of(K1,V1,K2,V2,K3,V3)",
+    "Option B": "Map.ofEntries(K1,V1,K2,V2,K3,V3)",
+    "Option C": "Both Option 1 and 2",
+    "Option D": "",
+    "Correct Answer": "Both Option 1 and 2"
+  },
+  {
+    "Sr. No.": 122,
+    "Question": "Which of the following method if called from a JSP page would produce an unpredictable result?",
+    "Option A": "do_post()",
+    "Option B": "system.out.println()",
+    "Option C": "system.exit(0)",
+    "Option D": "none of the above",
+    "Correct Answer": "system.exit(0)"
+  },
+  {
+    "Sr. No.": 123,
+    "Question": "session.createQuery(Query).scroll() returns?",
+    "Option A": "ListResultSet",
+    "Option B": "ResultSet",
+    "Option C": "ScrollableResultSet",
+    "Option D": "ScrollableResult",
+    "Correct Answer": "ScrollableResult"
+  },
+  {
+    "Sr. No.": 124,
+    "Question": "Which of the following can be used in place of 'Overloading'?",
+    "Option A": "Virtual polymorphism",
+    "Option B": "Transient polymorphism",
+    "Option C": "Ad hoc polymorphism",
+    "Option D": "Pseudo polymorphism",
+    "Correct Answer": "Ad hoc polymorphism"
+  },
+  {
+    "Sr. No.": 125,
+    "Question": "What does SAM stand for in context of Functional Interface?",
+    "Option A": "Single Abstract Marker",
+    "Option B": "Simple Abstract Marker",
+    "Option C": "Single Abstract Method",
+    "Option D": "Simple Abstract Markup",
+    "Correct Answer": "Single Abstract Method"
+  },
+  {
+    "Sr. No.": 126,
+    "Question": "Select the single most appropriate description of Lambda expression from the following four choices.",
+    "Option A": "Lambda expression represents Java syntax for defining mathematical expression in Java",
+    "Option B": "Lambda expression is a way of introducing inline delegate (think C# style) in Java expression",
+    "Option C": "Lambda expression is a way of creating code as data, for example passing some functionality as a parameter",
+    "Option D": "None of the above",
+    "Correct Answer": "Lambda expression is a way of creating code as data, for example passing some functionality as a parameter"
+  },
+  {
+    "Sr. No.": 127,
+    "Question": "Which of the following data structures is likely to be used by a HashMap to handle collisions?",
+    "Option A": "Linked List",
+    "Option B": "Stack",
+    "Option C": "Queue",
+    "Option D": "Binary Tree",
+    "Correct Answer": "Linked List"
+  },
+  {
+    "Sr. No.": 128,
+    "Question": "What are the two types of Streams offered by Java 8?",
+    "Option A": "Parallel and Random",
+    "Option B": "Sequential and Random",
+    "Option C": "Sequential and Parallel",
+    "Option D": "Random and Performance",
+    "Correct Answer": "Sequential and Parallel"
+  },
+  {
+    "Sr. No.": 129,
+    "Question": "Which of the following method is used to delete all the messages in a queue?",
+    "Option A": "delete",
+    "Option B": "remove",
+    "Option C": "redo",
+    "Option D": "purge",
+    "Correct Answer": "purge"
+  },
+  {
+    "Sr. No.": 130,
+    "Question": "Which of the following connection pools is best for Hibernate?",
+    "Option A": "c3p0",
+    "Option B": "proxool",
+    "Option C": "DBCP",
+    "Option D": "HikariCP",
+    "Correct Answer": "HikariCP"
+  },
+  {
+    "Sr. No.": 131,
+    "Question": "Which of the following is not introduced with Java 8?",
+    "Option A": "Stream API",
+    "Option B": "Lybdaum",
+    "Option C": "Removal of PermGen",
+    "Option D": "Serialization",
+    "Correct Answer": "Removal of PermGen"
+  },
+  {
+    "Sr. No.": 132,
+    "Question": "Answer the following questions based on your knowledge of Hibernate. Which of these is a tag of the class hibernate.cfg.xml?",
+    "Option A": "DTD",
+    "Option B": "Mapping files",
+    "Option C": "JDBC connection configuration",
+    "Option D": "Mapping files and JDBC connection configuration",
+    "Correct Answer": "Mapping files and JDBC connection configuration"
+  },
+  {
+    "Sr. No.": 133,
+    "Question": "Which of the following operations is not supported by Hibernate Query Language?",
+    "Option A": "Create",
+    "Option B": "Insert",
+    "Option C": "Select",
+    "Option D": "None of the above",
+    "Correct Answer": "Create"
+  },
+  {
+    "Sr. No.": 134,
+    "Question": "Assuming Cat, Apple, Bears, Dogs, Sparrows, Pigeons are persistence classes in an application, which of the following HQL statements returns all persistent objects of a Hibernate application?",
+    "Option A": "from pCat as cat",
+    "Option B": "from exApple as apple, exBears as bears",
+    "Option C": "from java.lang.object obj",
+    "Option D": "none of the above",
+    "Correct Answer": "none of the above"
+  },
+  {
+    "Sr. No.": 135,
+    "Question": "Which of the following correctly describes the ifPresentOrElse() method of Optional class?",
+    "Option A": "If a value is present it returns a sequential Stream containing only that value, otherwise returns an empty Stream.",
+    "Option B": "If a value is present, performs the given action with the value, otherwise performs the given empty-based action.",
+    "Option C": "Both Option 1 and 2",
+    "Option D": "",
+    "Correct Answer": "If a value is present, performs the given action with the value, otherwise performs the given empty-based action."
+  },
+  {
+    "Sr. No.": 136,
+    "Question": "Which of the following is not introduced in Java 9?",
+    "Option A": "MultiRelease JAR",
+    "Option B": "Private Methods in Interfaces",
+    "Option C": "Lambda expressions",
+    "Option D": "HTML5 based java documentation",
+    "Correct Answer": "Lambda expressions"
+  },
+  {
+    "Sr. No.": 137,
+    "Question": "For the code: class Parent { void display(int i) { } } class Child extends Parent { void display(int i) { } void display() { } } Which of the following are correct?",
+    "Option A": "The methods in lines 2 and 8 are overriding, the methods in lines 5 and 11 are overloaded",
+    "Option B": "The methods in lines 2 and 8 are overloaded, the methods in lines 5 and 11 are overriding",
+    "Option C": "The methods in lines 2, 4, and 11 are overloaded",
+    "Option D": "The methods in lines 2, 4, and 11 are overridden",
+    "Correct Answer": "The methods in lines 2 and 8 are overriding, the methods in lines 5 and 11 are overloaded"
+  },
+  {
+    "Sr. No.": 138,
+    "Question": "Which of the following data structures is likely to be used by a TreeMap?",
+    "Option A": "Binary Search Tree",
+    "Option B": "Hash Table",
+    "Option C": "Red Black Tree",
+    "Option D": "Array",
+    "Correct Answer": "Red Black Tree"
+  },
+  {
+    "Sr. No.": 139,
+    "Question": "Which feature of Java 8 enables us to create a work stealing thread pool using all available processors at its target to maintain enough threads for supporting the given parallelism level?",
+    "Option A": "workLoad",
+    "Option B": "threadPool",
+    "Option C": "workThreadPool",
+    "Option D": "newWorkStealingPool",
+    "Correct Answer": "newWorkStealingPool"
+  },
+  {
+    "Sr. No.": 140,
+    "Question": "One of the differences between Collection API and Stream API is that the later can be used to process either limited or infinite number of elements. Select the correct option:",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "",
+    "Option D": "",
+    "Correct Answer": true
+  },
+  {
+    "Sr. No.": 141,
+    "Question": "How can the Advanced Encryption Standard (AES) be disabled using the Java VM Option?",
+    "Option A": "Using -XX:+UseAES and -XX:+HasAESIntrinsics",
+    "Option B": "Using -XX:-UseAES-disable and -XX:-HasAESIntrinsics-disable",
+    "Option C": "Using -XX:-UseAES-disable and -XX:+HasAESIntrinsics-disable",
+    "Option D": "Using -XX:+UseAES-disable and -XX:-HasAESIntrinsics-disable",
+    "Correct Answer": "Using -XX:-UseAES-disable and -XX:-HasAESIntrinsics-disable"
+  },
+  {
+    "Sr. No.": 142,
+    "Question": "Which of the following statements about stubs and skeletons is true?",
+    "Option A": "Stubs and skeletons are implemented by the developer",
+    "Option B": "Stubs and skeletons are generated automatically by the RMI compiler",
+    "Option C": "Stubs and skeletons are a part of session and entity beans",
+    "Option D": "None of the given options",
+    "Correct Answer": "Stubs and skeletons are generated automatically by the RMI compiler"
+  },
+  {
+    "Sr. No.": 143,
+    "Question": "As per EJB concepts in every EJB JAR file, which of the following options must be included?",
+    "Option A": "Stubs for the EJBHome and EJBObject interface, A deployment descriptor",
+    "Option B": "The JAR Manifest file; The EJB Home interface",
+    "Option C": "A deployment descriptor; The EJB home interface",
+    "Option D": "The NDI context; The JAR Manifest File",
+    "Correct Answer": "A deployment descriptor; The EJB home interface"
+  },
+  {
+    "Sr. No.": 144,
+    "Question": "What is the difference between HttpServletResponse redirect method and RequestDispatcher's forward method?",
+    "Option A": "RequestDispatcher forward a request from a servlet to another resource on the server. HttpServletResponse redirect temporary redirect response to the client using the specified redirect Location URL.",
+    "Option B": "RequestDispatcher forward method temporarily redirect response to the client using the specified redirect location URL. HttpServletResponse redirect a request from the servlet to another resource on the server.",
+    "Option C": "RequestDispatcher forward can forward the request to outside the container for example www.yahoo.com",
+    "Option D": "None of these",
+    "Correct Answer": "RequestDispatcher forward a request from a servlet to another resource on the server. HttpServletResponse redirect temporary redirect response to the client using the specified redirect Location URL."
+  },
+  {
+    "Sr. No.": 145,
+    "Question": "As per design patterns concepts, which of the following structural patterns uses shared objects that can be used in multiple contexts simultaneously so as to minimize memory use?",
+    "Option A": "Flyweight",
+    "Option B": "Singleton",
+    "Option C": "Prototype",
+    "Option D": "None of the given options",
+    "Correct Answer": "Flyweight"
+  },
+  {
+    "Sr. No.": 146,
+    "Question": "Which of the following design patterns address(es) how you can decouple senders and receivers, but with different trade-offs?",
+    "Option A": "Chain of responsibility",
+    "Option B": "Command",
+    "Option C": "Observer",
+    "Option D": "All of the given options",
+    "Correct Answer": "All of the given options"
+  },
+  {
+    "Sr. No.": 147,
+    "Question": "Which of the following is not a valid method declaration within an interface in Java?",
+    "Option A": "public String show();",
+    "Option B": "abstract String show();",
+    "Option C": "final String show();",
+    "Option D": "String show();",
+    "Correct Answer": "final String show();"
+  },
+  {
+    "Sr. No.": 148,
+    "Question": "Which of the following method calls will result in a compile-time error? (Raw text from PDF)",
+    "Option A": "Thread.currentThread().sleep(1000);",
+    "Option B": "Thread.sleep(1000);",
+    "Option C": "someThreadReference.sleep(1000);",
+    "Option D": "All of the above",
+    "Correct Answer": "Thread.currentThread().sleep(1000);"
+  },
+  {
+    "Sr. No.": 149,
+    "Question": "Which of the following statements are true regarding JDBC? (Raw text from PDF)",
+    "Option A": "JDBC supports only SQL92",
+    "Option B": "JDBC supports both SQL92 and SQL99",
+    "Option C": "JDBC supports NoSQL",
+    "Option D": "",
+    "Correct Answer": "JDBC supports both SQL92 and SQL99"
+  },
+  {
+    "Sr. No.": 150,
+    "Question": "Identify the correct statement about Java Assertions.",
+    "Option A": "Assertions are used to validate external conditions like file availability",
+    "Option B": "Assertions can be disabled at runtime using JVM flags",
+    "Option C": "Assertions cannot be disabled",
+    "Option D": "Assertions should be used for user input validation",
+    "Correct Answer": "Assertions can be disabled at runtime using JVM flags"
+  },
+  {
+    "Sr. No.": 151,
+    "Question": "What happens when the start() method is called twice on the same Thread object?",
+    "Option A": "The thread runs twice",
+    "Option B": "The thread restarts from beginning",
+    "Option C": "A new thread is created",
+    "Option D": "It throws IllegalThreadStateException",
+    "Correct Answer": "It throws IllegalThreadStateException"
+  },
+  {
+    "Sr. No.": 152,
+    "Question": "Which of the following exceptions is thrown when an I/O operation is interrupted?",
+    "Option A": "IOException",
+    "Option B": "InterruptedIOException",
+    "Option C": "FileNotFoundException",
+    "Option D": "EOFException",
+    "Correct Answer": "InterruptedIOException"
+  },
+  {
+    "Sr. No.": 153,
+    "Question": "Which of the following are correct HTML5 features supported by Java 9 Documentation?",
+    "Option A": "HTML5-based search",
+    "Option B": "HTML5-based navigation",
+    "Option C": "Both Option 1 and 2",
+    "Option D": "",
+    "Correct Answer": "Both Option 1 and 2"
+  },
+  {
+    "Sr. No.": 154,
+    "Question": "Which of the following is true about Java Serialization?",
+    "Option A": "Serialization saves only static members",
+    "Option B": "Serialization saves only transient members",
+    "Option C": "Serialization saves non-transient, non-static fields",
+    "Option D": "Serialization saves constructors",
+    "Correct Answer": "Serialization saves non-transient, non-static fields"
+  },
+  {
+    "Sr. No.": 155,
+    "Question": "Which of the following correctly identifies the cause of ConcurrentModificationException?",
+    "Option A": "Adding an element while iterating using Iterator",
+    "Option B": "Removing an element using Iterator’s remove()",
+    "Option C": "Accessing element using get()",
+    "Option D": "",
+    "Correct Answer": "Adding an element while iterating using Iterator"
+  },
+  {
+    "Sr. No.": 156,
+    "Question": "Which method in Thread class is used to ensure that a thread completes before the next thread starts?",
+    "Option A": "sleep()",
+    "Option B": "yield()",
+    "Option C": "join()",
+    "Option D": "interrupt()",
+    "Correct Answer": "join()"
+  },
+  {
+    "Sr. No.": 157,
+    "Question": "What is the default priority of a thread in Java?",
+    "Option A": true,
+    "Option B": 5,
+    "Option C": 10,
+    "Option D": 0,
+    "Correct Answer": 5
+  },
+  {
+    "Sr. No.": 158,
+    "Question": "Which of the following JDBC drivers is the fastest?",
+    "Option A": "JDBC-ODBC Bridge Driver",
+    "Option B": "Native API Driver",
+    "Option C": "Network Protocol Driver",
+    "Option D": "Thin Driver",
+    "Correct Answer": "Thin Driver"
+  },
+  {
+    "Sr. No.": 159,
+    "Question": "What is returned by Collections.binarySearch() if the element is not found?",
+    "Option A": "A negative value",
+    "Option B": "Zero",
+    "Option C": "A positive value",
+    "Option D": "Null",
+    "Correct Answer": "A negative value"
+  },
+  {
+    "Sr. No.": 160,
+    "Question": "Question 1: Which of the following method is used to delete all the messages in a queue?",
+    "Option A": "delete",
+    "Option B": "remove",
+    "Option C": "trash",
+    "Option D": "purge",
+    "Correct Answer": "D. purge"
+  },
+  {
+    "Sr. No.": 161,
+    "Question": "Question 3: Answer the below question based on Servlets concepts. ________ method is used to specify before any lines that use the PrintWriter?",
+    "Option A": "setContentType()",
+    "Option B": "setContextType()",
+    "Option C": "setContentTypel()",
+    "Option D": "setResponseType()",
+    "Correct Answer": "A. setContentType()"
+  },
+  {
+    "Sr. No.": 162,
+    "Question": "Question 4: The method getWriter() returns an object of type PrintWriter. Which of the following defines the getWriter() method?",
+    "Option A": "HttpServletRequest",
+    "Option B": "HttpServletResponse",
+    "Option C": "ServletConfig",
+    "Option D": "ServletContext",
+    "Correct Answer": "B. HttpServletResponse"
+  },
+  {
+    "Sr. No.": 163,
+    "Question": "Question 5: What would the given code snippet print? boolean testE=false; if(testE = true) System.out.println(\"TRUE\"); else System.out.println(\"FALSE\");",
+    "Option A": false,
+    "Option B": true,
+    "Option C": "Compile time error",
+    "Option D": "None of the above",
+    "Correct Answer": "B. TRUE"
+  },
+  {
+    "Sr. No.": 164,
+    "Question": "Question 6: What will be the outcome when the given code is compiled and run? class Test2{ public static void main(String args[]){ System.out.println(0.0/0.0); } }",
+    "Option A": "compilation error",
+    "Option B": true,
+    "Option C": false,
+    "Option D": "",
+    "Correct Answer": "D. NaN"
+  },
+  {
+    "Sr. No.": 165,
+    "Question": "Question 7: What is the output of the following Java code? class Q7{ public static void main(String a[]){ final const int a=10; System.out.println(a); } }",
+    "Option A": "Compilation error",
+    "Option B": "Runtime Exception",
+    "Option C": 10,
+    "Option D": "None of these",
+    "Correct Answer": "A. Compilation error"
+  },
+  {
+    "Sr. No.": 166,
+    "Question": "Question 8: Predict the output of the following code. public class WaitTest{ ... }",
+    "Option A": "It fails to compile...",
+    "Option B": "1 2 3",
+    "Option C": "1 3",
+    "Option D": "1 2",
+    "Correct Answer": "B. 1 2 3"
+  },
+  {
+    "Sr. No.": 167,
+    "Question": "Question 9: Which of the following interfaces contains the hasPrevious() method?",
+    "Option A": "Iterator",
+    "Option B": "ListIterator",
+    "Option C": "Both",
+    "Option D": "None of the above",
+    "Correct Answer": "B. ListIterator"
+  },
+  {
+    "Sr. No.": 168,
+    "Question": "Question 10: What would be the output of below code? public class Test{ public static void main(String[] args){ try{ return 1; } catch(Exception e){ return 2; } finally{ return 3; } } }",
+    "Option A": true,
+    "Option B": 2,
+    "Option C": 3,
+    "Option D": "compile time error",
+    "Correct Answer": "C. 3"
+  },
+  {
+    "Sr. No.": 169,
+    "Question": "Question 11: Which of the following interfaces are coded while developing business methods in a bean? A. Home interface C. Component interface",
+    "Option A": "Only B",
+    "Option B": "Only C",
+    "Option C": "Both A and B",
+    "Option D": "Both A and C",
+    "Correct Answer": "D. Both A and C"
+  },
+  {
+    "Sr. No.": 170,
+    "Question": "Question 12: As per EJB concepts, Hello1 updates DB A and B, Hello2 updates DB B. Is this given type of transaction supported by EJB?",
+    "Option A": "This is an example of nested transactions, not supported by EJB",
+    "Option B": "This is an example of nested transactions, supported by EJB",
+    "Option C": "This is an example of distributed transactions and will be supported by EJB",
+    "Option D": "This is not an example of distributed transactions and will not be supported by EJB",
+    "Correct Answer": "B. This is an example of nested transactions, supported by EJB"
+  },
+  {
+    "Sr. No.": 171,
+    "Question": "Question 13: Which of the following method is added to Map in Java 9?",
+    "Option A": "static Map of(K k1, V v1, K k2, V v2, K k3, V v3)",
+    "Option B": "Map of(Map<K, V> k1, V v1, K k2, V v2, K k3, V v3)",
+    "Option C": "Both Option 1 and 2",
+    "Option D": "",
+    "Correct Answer": "A. static Map of(K k1, V v1, K k2, V v2, K k3, V v3)"
+  },
+  {
+    "Sr. No.": 172,
+    "Question": "Question 14: What are the events in JSP page?",
+    "Option A": "jsp:init()",
+    "Option B": "jsp:load()",
+    "Option C": "jsp:call()",
+    "Option D": "jsp:exit()",
+    "Correct Answer": "A. jsp:init()"
+  },
+  {
+    "Sr. No.": 173,
+    "Question": "Question 15: Which of the following object is used to access web services via browsers?",
+    "Option A": "XMLHttpRequest",
+    "Option B": "HttpRequest",
+    "Option C": "JSONP",
+    "Option D": "WebSocket",
+    "Correct Answer": "A. XMLHttpRequest"
+  },
+  {
+    "Sr. No.": 174,
+    "Question": "Question 16: Which of the following is creditworthy for pulling, parsing, and compiling the mapping documents into a format that Hibernate uses internally?",
+    "Option A": "Configuration object",
+    "Option B": "Configuration file",
+    "Option C": "Both 1 & 2",
+    "Option D": "None of these",
+    "Correct Answer": "A. Configuration object"
+  },
+  {
+    "Sr. No.": 175,
+    "Question": "Question 17: Which of the following is not supported by OOPS in terms of classes?",
+    "Option A": "Multilevel inheritance",
+    "Option B": "Multiple inheritance",
+    "Option C": "Function overloading",
+    "Option D": "Function overriding",
+    "Correct Answer": "B. Multiple inheritance"
+  },
+  {
+    "Sr. No.": 176,
+    "Question": "Question 18: Lambda expressions can be used in place of instances of anonymous classes.",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "",
+    "Option D": "",
+    "Correct Answer": "A. TRUE"
+  },
+  {
+    "Sr. No.": 177,
+    "Question": "Question 19: Select the correct option. Lambda expression is an anonymous function which accepts a set of input parameters and returns results.",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "",
+    "Option D": "",
+    "Correct Answer": "A. TRUE"
+  },
+  {
+    "Sr. No.": 178,
+    "Question": "Question 20: For look up of indexed elements an ArrayList is more efficient than a LinkedList.",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "",
+    "Option D": "",
+    "Correct Answer": "A. TRUE"
+  },
+  {
+    "Sr. No.": 179,
+    "Question": "Question 21: In context of hash table based collections, how is the load factor defined?",
+    "Option A": "$\\frac{m}{n}$",
+    "Option B": "$\\frac{n}{m}$",
+    "Option C": "$\\frac{n}{n+m}$",
+    "Option D": "$\\frac{n+m}{n}$",
+    "Correct Answer": "B. $\\frac{n}{m}$"
+  },
+  {
+    "Sr. No.": 180,
+    "Question": "Question 22: Consider an instance of a collection of type List<CharSequence>.",
+    "Option A": "This collection can contain only String types",
+    "Option B": "This collection can contain only CharSequence types",
+    "Option C": "This collection can contain both String and CharSequence types",
+    "Option D": "The collection can contain any Object",
+    "Correct Answer": "B. This collection can contain only CharSequence types"
+  },
+  {
+    "Sr. No.": 181,
+    "Question": "Question 23: The Queue<E> interface represents which data structure?",
+    "Option A": "LIFO",
+    "Option B": "FIFO",
+    "Option C": "Both",
+    "Option D": "",
+    "Correct Answer": "B. FIFO"
+  },
+  {
+    "Sr. No.": 182,
+    "Question": "Question 24: Which of the following roles has the responsibility of mapping the logical name to the actual name of the resource on the server?",
+    "Option A": "Application assembler",
+    "Option B": "Bean deployer",
+    "Option C": "Bean provider",
+    "Option D": "None of the given options",
+    "Correct Answer": "B. Bean deployer"
+  },
+  {
+    "Sr. No.": 183,
+    "Question": "Question 25: EJB Transaction Attribute that ensures the method call always takes place in a transaction?",
+    "Option A": "TX_SUPPORTS",
+    "Option B": "TX_MANDATORY",
+    "Option C": "TX_REQUIRED and TX_REQUIRES_NEW",
+    "Option D": "None of the given options",
+    "Correct Answer": "B. TX_MANDATORY"
+  },
+  {
+    "Sr. No.": 184,
+    "Question": "Question 26: Which three methods run in an unspecified transaction context when a session bean has container-managed demarcation value of 'Supports'?",
+    "Option A": "A, B and C",
+    "Option B": "A, C and D",
+    "Option C": "A, D and F",
+    "Option D": "B, C and D",
+    "Correct Answer": "B. A, C and D"
+  },
+  {
+    "Sr. No.": 185,
+    "Question": "Question 27: What is the difference between HttpServletResponse.sendRedirect() and RequestDispatcher.forward()?",
+    "Option A": "RequestDispatcher forward a request from a servlet to another resource on the server. HttpServletResponse sendRedirect temporarily redirect response to the client using the specified redirected location URL.",
+    "Option B": "RequestDispatcher forward method temporarily redirect response to the client using the specified redirected location URL. HttpServletResponse redirect a request from the servlet to another resource on the server.",
+    "Option C": "RequestDispatcher forward can forward the request to outside the container for example www.yahoo.com.",
+    "Option D": "None of these",
+    "Correct Answer": "A. RequestDispatcher forward a request from a servlet to another resource on the server. HttpServletResponse sendRedirect temporarily redirect response to the client using the specified redirected location URL."
+  },
+  {
+    "Sr. No.": 186,
+    "Question": "Question 28: How will you define a Bean for a static inner class in XML?",
+    "Option A": "<bean class=\"ParentClass$StaticInnerClass\" ... />",
+    "Option B": "<bean class=\"StaticInnerClass\" parent=\"ParentClass-bean\" ... />",
+    "Option C": "<bean class=\"ParentClass.StaticInnerClass\" ... />",
+    "Option D": "<bean class=\"StaticInnerClass\" factory-bean=\"ParentClass-bean\" ... />",
+    "Correct Answer": "A. <bean class=\"ParentClass$StaticInnerClass\" ... />"
+  },
+  {
+    "Sr. No.": 187,
+    "Question": "Question 29: Following are benefits of Stream API:",
+    "Option A": "ability to write in Functional Style programming",
+    "Option B": "perform Parallel and Pipelining operations",
+    "Option C": "ability to achieve better performance",
+    "Option D": "All of above",
+    "Correct Answer": "D. All of above"
+  },
+  {
+    "Sr. No.": 188,
+    "Question": "Question 31: Design pattern that separates object construction from its representation?",
+    "Option A": "Prototype",
+    "Option B": "Builder",
+    "Option C": "Both of the given options",
+    "Option D": "None of the given options",
+    "Correct Answer": "B. Builder"
+  },
+  {
+    "Sr. No.": 189,
+    "Question": "Question 32: Which of the following statements about MVC is true?",
+    "Option A": "MVC decouples views and models using a subscriber/notify protocol (i.e. the Observer pattern).",
+    "Option B": "Views are generally nested using a factory design pattern.",
+    "Option C": "The controller in MVC are generally heavy...",
+    "Option D": "MVC was a framework invented in 1980s...",
+    "Correct Answer": "A. MVC decouples views and models using a subscriber/notify protocol (i.e. the Observer pattern)."
+  },
+  {
+    "Sr. No.": 190,
+    "Question": "Question 33: Which of the following is a disadvantage of using a static factory method?",
+    "Option A": "Static factory methods, unlike constructors, have names.",
+    "Option B": "Static factory methods, unlike constructors, need not create a new object...",
+    "Option C": "Static factory methods, unlike constructors, can return an object of any subtype...",
+    "Option D": "Static factory methods often require classes to have private constructors. Such classes cannot be subclassed.",
+    "Correct Answer": "D. Static factory methods often require classes to have private constructors. Such classes cannot be subclassed."
+  },
+  {
+    "Sr. No.": 191,
+    "Question": "Question 34: Design pattern that provides a surrogate or placeholder for another object to control access to it?",
+    "Option A": "Singleton",
+    "Option B": "Proxy",
+    "Option C": "IOC",
+    "Option D": "None of this given options",
+    "Correct Answer": "B. Proxy"
+  },
+  {
+    "Sr. No.": 192,
+    "Question": "Question 36: What would get printed for the Spring code snippet with @Value(\"value is #{someBean}\") and properties.put(\"someBean\", \"oneBean\")?",
+    "Option A": "value is oneBean",
+    "Option B": "value is #{someBean}",
+    "Option C": "Throws org.springframework.expression.spel.SpelEvaluationException",
+    "Option D": "value is null",
+    "Correct Answer": "A. value is oneBean"
+  },
+  {
+    "Sr. No.": 193,
+    "Question": "Question 37: Spring provides a means to generate the primary key values from within one's application, via ___________.",
+    "Option A": "KeyGenerator Interface",
+    "Option B": "KeyMutator Interface",
+    "Option C": "DataFieldAutoIncrementer Interface",
+    "Option D": "None of the above",
+    "Correct Answer": "A. KeyGenerator Interface"
+  },
+  {
+    "Sr. No.": 194,
+    "Question": "Question 38: Which interface provides a mechanism to register objects that are created outside the container?",
+    "Option A": "DefaultListableBeanFactory",
+    "Option B": "AutowireCapableBeanFactory",
+    "Option C": "SimpleBeanFactory",
+    "Option D": "SharedBeanFactory",
+    "Correct Answer": "B. AutowireCapableBeanFactory"
+  },
+  {
+    "Sr. No.": 195,
+    "Question": "Question 39: Which of the following methods use RequestMapping with a class?",
+    "Option A": "RequestMapping is not supported for class and only for method",
+    "Option B": "Request mapping works well with multiple URI and not with class",
+    "Option C": "@Controller @RequestMapping(\"/home\") public class HomeController{...}",
+    "Option D": "@Controller @RequestMapping(\"/home\") private class HomeController{...}",
+    "Correct Answer": "C. @Controller @RequestMapping(\"/home\") public class HomeController{...}"
+  },
+  {
+    "Sr. No.": 196,
+    "Question": "Question 40: What are Spring JDBC templates used for?",
+    "Option A": "Reading data",
+    "Option B": "Writing data",
+    "Option C": "Auto incrementing the keys",
+    "Option D": "All of the above",
+    "Correct Answer": "D. All of the above"
+  },
+  {
+    "Sr. No.": 197,
+    "Question": "Question 41: Which of the following annotation is provided to load a Spring container in application JUnit test?",
+    "Option A": "Component",
+    "Option B": "ContextConfiguration",
+    "Option C": "Configuration",
+    "Option D": "Configurable",
+    "Correct Answer": "B. ContextConfiguration"
+  },
+  {
+    "Sr. No.": 198,
+    "Question": "Question 42: What is the need for @EnableWebSecurity in the Spring Security snippet?",
+    "Option A": "@EnableWebSecurity annotation is used for specifically defining the security configurations needed in the application",
+    "Option B": "@EnableWebSecurity annotation is used for enabling Spring Security features in the web application",
+    "Option C": "@EnableWebSecurity is wrongly implemented in this code",
+    "Option D": "This code will throw an error since @EnableWebSecurity is not supported in Spring MVC",
+    "Correct Answer": "B. @EnableWebSecurity annotation is used for enabling Spring Security features in the web application"
+  },
+  {
+    "Sr. No.": 199,
+    "Question": "Question 43: The TransactionException that can be thrown by any of the PlatformTransactionManager interface's is what kind of exception?",
+    "Option A": "Checked Exception",
+    "Option B": "Unchecked exception",
+    "Option C": "Both A and B are correct",
+    "Option D": "None of the above",
+    "Correct Answer": "B. Unchecked exception"
+  },
+  {
+    "Sr. No.": 200,
+    "Question": "Question 44: How can an entire class be mapped as immutable?",
+    "Option A": "By using the mutable=\"false\" attribute...",
+    "Option B": "By using the immutable=\"true\" attribute in the class mapping.",
+    "Option C": "By using the immutable=\"no\" attribute...",
+    "Option D": "None of the above",
+    "Correct Answer": "B. By using the immutable=\"true\" attribute in the class mapping."
+  },
+  {
+    "Sr. No.": 201,
+    "Question": "Question 45: Which of the following is the most common configuration method of Hibernate configuration?",
+    "Option A": "Mapping files",
+    "Option B": "web.config",
+    "Option C": "cfg.xml",
+    "Option D": "none of the above",
+    "Correct Answer": "A. Mapping files"
+  },
+  {
+    "Sr. No.": 202,
+    "Question": "Question 46: Which of the following is not an extension interface provided by Hibernate?",
+    "Option A": "TransactionFactory",
+    "Option B": "ConnectionProvider",
+    "Option C": "TransientFactory",
+    "Option D": "CacheProvider",
+    "Correct Answer": "C. TransientFactory"
+  },
+  {
+    "Sr. No.": 203,
+    "Question": "Question 47: Which of the following statements about Hibernate Interfaces (R1, R2, R3) is correct?",
+    "Option A": "R1",
+    "Option B": "R1 & R2",
+    "Option C": "R1, R2 & R3",
+    "Option D": "All of the above",
+    "Correct Answer": "D. All of the above"
+  },
+  {
+    "Sr. No.": 204,
+    "Question": "Question 48: In which of the following version of Java Optional Class was introduced?",
+    "Option A": "Java 7",
+    "Option B": "Java 8",
+    "Option C": "Java 9",
+    "Option D": "",
+    "Correct Answer": "B. Java 8"
+  },
+  {
+    "Sr. No.": 205,
+    "Question": "Question 49: Which of the following correctly describes the failedStage() method of CompletableFuture interface?",
+    "Option A": "Returns a new incomplete CompletableFuture...",
+    "Option B": "Returns a new CompletableFuture which is already completed...",
+    "Option C": "Returns a new CompletionStage which is already completed with the given value...",
+    "Option D": "Returns a new CompletionStage which is already completed exceptionally with the given exception...",
+    "Correct Answer": "D. Returns a new CompletionStage which is already completed exceptionally with the given exception..."
+  },
+  {
+    "Sr. No.": 206,
+    "Question": "Question 50: Which of the following is a correct statement about try-with-resources statement in Java 9?",
+    "Option A": "Prior to Java 7 resources are to be declared before try or inside try statement.",
+    "Option B": "Any object implementing java.lang.AutoCloseable or java.io.Closeable interface can be used as a resource.",
+    "Option C": "The try-with-resource statement ensures that each resource is closed after the requirement finishes.",
+    "Option D": "All of the above.",
+    "Correct Answer": "D. All of the above."
+  },
+  {
+    "Sr. No.": 207,
+    "Question": "Question 1: Which of the following method is used to delete all the messages in a queue?",
+    "Option A": "delete",
+    "Option B": "remove",
+    "Option C": "trash",
+    "Option D": "purge",
+    "Correct Answer": "D. purge"
+  },
+  {
+    "Sr. No.": 208,
+    "Question": "Question 3: Answer the below question based on Servlets concepts. ________ method is used to specify before any lines that use the PrintWriter?",
+    "Option A": "setContentType()",
+    "Option B": "setContextType()",
+    "Option C": "setContentTypel()",
+    "Option D": "setResponseType()",
+    "Correct Answer": "A. setContentType()"
+  },
+  {
+    "Sr. No.": 209,
+    "Question": "Question 4: The method getWriter() returns an object of type PrintWriter. Which of the following defines the getWriter() method?",
+    "Option A": "HttpServletRequest",
+    "Option B": "HttpServletResponse",
+    "Option C": "ServletConfig",
+    "Option D": "ServletContext",
+    "Correct Answer": "B. HttpServletResponse"
+  },
+  {
+    "Sr. No.": 210,
+    "Question": "Question 5: What would the given code snippet print? boolean testE=false; if(testE = true) System.out.println(\"TRUE\"); else System.out.println(\"FALSE\");",
+    "Option A": false,
+    "Option B": true,
+    "Option C": "Compile time error",
+    "Option D": "None of the above",
+    "Correct Answer": "B. TRUE"
+  },
+  {
+    "Sr. No.": 211,
+    "Question": "Question 6: What will be the outcome when the given code is compiled and run? class Test2{ public static void main(String args[]){ System.out.println(0.0/0.0); } }",
+    "Option A": "compilation error",
+    "Option B": true,
+    "Option C": false,
+    "Option D": "",
+    "Correct Answer": "D. NaN"
+  },
+  {
+    "Sr. No.": 212,
+    "Question": "Question 7: What is the output of the following Java code? class Q7{ public static void main(String a[]){ final const int a=10; System.out.println(a); } }",
+    "Option A": "Compilation error",
+    "Option B": "Runtime Exception",
+    "Option C": 10,
+    "Option D": "None of these",
+    "Correct Answer": "A. Compilation error"
+  },
+  {
+    "Sr. No.": 213,
+    "Question": "Question 8: Predict the output of the following code. public class WaitTest{ ... }",
+    "Option A": "It fails to compile...",
+    "Option B": "1 2 3",
+    "Option C": "1 3",
+    "Option D": "1 2",
+    "Correct Answer": "B. 1 2 3"
+  },
+  {
+    "Sr. No.": 214,
+    "Question": "Question 9: Which of the following interfaces contains the hasPrevious() method?",
+    "Option A": "Iterator",
+    "Option B": "ListIterator",
+    "Option C": "Both",
+    "Option D": "None of the above",
+    "Correct Answer": "B. ListIterator"
+  },
+  {
+    "Sr. No.": 215,
+    "Question": "Question 10: What would be the output of below code? public class Test{ public static void main(String[] args){ try{ return 1; } catch(Exception e){ return 2; } finally{ return 3; } } }",
+    "Option A": true,
+    "Option B": 2,
+    "Option C": 3,
+    "Option D": "compile time error",
+    "Correct Answer": "C. 3"
+  },
+  {
+    "Sr. No.": 216,
+    "Question": "Question 11: Which of the following interfaces are coded while developing business methods in a bean? A. Home interface C. Component interface",
+    "Option A": "Only B",
+    "Option B": "Only C",
+    "Option C": "Both A and B",
+    "Option D": "Both A and C",
+    "Correct Answer": "D. Both A and C"
+  },
+  {
+    "Sr. No.": 217,
+    "Question": "Question 12: As per EJB concepts, Hello1 updates DB A and B, Hello2 updates DB B. Is this given type of transaction supported by EJB?",
+    "Option A": "This is an example of nested transactions, not supported by EJB",
+    "Option B": "This is an example of nested transactions, supported by EJB",
+    "Option C": "This is an example of distributed transactions and will be supported by EJB",
+    "Option D": "This is not an example of distributed transactions and will not be supported by EJB",
+    "Correct Answer": "B. This is an example of nested transactions, supported by EJB"
+  },
+  {
+    "Sr. No.": 218,
+    "Question": "Question 13: Which of the following method is added to Map in Java 9?",
+    "Option A": "static Map of(K k1, V v1, K k2, V v2, K k3, V v3)",
+    "Option B": "Map of(Map<K, V> k1, V v1, K k2, V v2, K k3, V v3)",
+    "Option C": "Both Option 1 and 2",
+    "Option D": "",
+    "Correct Answer": "A. static Map of(K k1, V v1, K k2, V v2, K k3, V v3)"
+  },
+  {
+    "Sr. No.": 219,
+    "Question": "Question 14: What are the events in JSP page?",
+    "Option A": "jsp:init()",
+    "Option B": "jsp:load()",
+    "Option C": "jsp:call()",
+    "Option D": "jsp:exit()",
+    "Correct Answer": "A. jsp:init()"
+  },
+  {
+    "Sr. No.": 220,
+    "Question": "Question 15: Which of the following object is used to access web services via browsers?",
+    "Option A": "XMLHttpRequest",
+    "Option B": "HttpRequest",
+    "Option C": "JSONP",
+    "Option D": "WebSocket",
+    "Correct Answer": "A. XMLHttpRequest"
+  },
+  {
+    "Sr. No.": 221,
+    "Question": "Question 16: Which of the following is creditworthy for pulling, parsing, and compiling the mapping documents into a format that Hibernate uses internally?",
+    "Option A": "Configuration object",
+    "Option B": "Configuration file",
+    "Option C": "Both 1 & 2",
+    "Option D": "None of these",
+    "Correct Answer": "A. Configuration object"
+  },
+  {
+    "Sr. No.": 222,
+    "Question": "Question 17: Which of the following is not supported by OOPS in terms of classes?",
+    "Option A": "Multilevel inheritance",
+    "Option B": "Multiple inheritance",
+    "Option C": "Function overloading",
+    "Option D": "Function overriding",
+    "Correct Answer": "B. Multiple inheritance"
+  },
+  {
+    "Sr. No.": 223,
+    "Question": "Question 18: Lambda expressions can be used in place of instances of anonymous classes.",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "",
+    "Option D": "",
+    "Correct Answer": "A. TRUE"
+  },
+  {
+    "Sr. No.": 224,
+    "Question": "Question 19: Select the correct option. Lambda expression is an anonymous function which accepts a set of input parameters and returns results.",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "",
+    "Option D": "",
+    "Correct Answer": "A. TRUE"
+  },
+  {
+    "Sr. No.": 225,
+    "Question": "Question 20: For look up of indexed elements an ArrayList is more efficient than a LinkedList.",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "",
+    "Option D": "",
+    "Correct Answer": "A. TRUE"
+  },
+  {
+    "Sr. No.": 226,
+    "Question": "Question 21: In context of hash table based collections, how is the load factor defined?",
+    "Option A": "$\\frac{m}{n}$",
+    "Option B": "$\\frac{n}{m}$",
+    "Option C": "$\\frac{n}{n+m}$",
+    "Option D": "$\\frac{n+m}{n}$",
+    "Correct Answer": "B. $\\frac{n}{m}$"
+  },
+  {
+    "Sr. No.": 227,
+    "Question": "Question 22: Consider an instance of a collection of type List<CharSequence>.",
+    "Option A": "This collection can contain only String types",
+    "Option B": "This collection can contain only CharSequence types",
+    "Option C": "This collection can contain both String and CharSequence types",
+    "Option D": "The collection can contain any Object",
+    "Correct Answer": "B. This collection can contain only CharSequence types"
+  },
+  {
+    "Sr. No.": 228,
+    "Question": "Question 23: The Queue<E> interface represents which data structure?",
+    "Option A": "LIFO",
+    "Option B": "FIFO",
+    "Option C": "Both",
+    "Option D": "",
+    "Correct Answer": "B. FIFO"
+  },
+  {
+    "Sr. No.": 229,
+    "Question": "Question 24: Which of the following roles has the responsibility of mapping the logical name to the actual name of the resource on the server?",
+    "Option A": "Application assembler",
+    "Option B": "Bean deployer",
+    "Option C": "Bean provider",
+    "Option D": "None of the given options",
+    "Correct Answer": "B. Bean deployer"
+  },
+  {
+    "Sr. No.": 230,
+    "Question": "Question 25: EJB Transaction Attribute that ensures the method call always takes place in a transaction?",
+    "Option A": "TX_SUPPORTS",
+    "Option B": "TX_MANDATORY",
+    "Option C": "TX_REQUIRED and TX_REQUIRES_NEW",
+    "Option D": "None of the given options",
+    "Correct Answer": "B. TX_MANDATORY"
+  },
+  {
+    "Sr. No.": 231,
+    "Question": "Question 26: Which three methods run in an unspecified transaction context when a session bean has container-managed demarcation value of 'Supports'?",
+    "Option A": "A, B and C",
+    "Option B": "A, C and D",
+    "Option C": "A, D and F",
+    "Option D": "B, C and D",
+    "Correct Answer": "B. A, C and D"
+  },
+  {
+    "Sr. No.": 232,
+    "Question": "Question 27: What is the difference between HttpServletResponse.sendRedirect() and RequestDispatcher.forward()?",
+    "Option A": "RequestDispatcher forward a request from a servlet to another resource on the server. HttpServletResponse sendRedirect temporarily redirect response to the client using the specified redirected location URL.",
+    "Option B": "RequestDispatcher forward method temporarily redirect response to the client using the specified redirected location URL. HttpServletResponse redirect a request from the servlet to another resource on the server.",
+    "Option C": "RequestDispatcher forward can forward the request to outside the container for example www.yahoo.com.",
+    "Option D": "None of these",
+    "Correct Answer": "A. RequestDispatcher forward a request from a servlet to another resource on the server. HttpServletResponse sendRedirect temporarily redirect response to the client using the specified redirected location URL."
+  },
+  {
+    "Sr. No.": 233,
+    "Question": "Question 28: How will you define a Bean for a static inner class in XML?",
+    "Option A": "<bean class=\"ParentClass$StaticInnerClass\" ... />",
+    "Option B": "<bean class=\"StaticInnerClass\" parent=\"ParentClass-bean\" ... />",
+    "Option C": "<bean class=\"ParentClass.StaticInnerClass\" ... />",
+    "Option D": "<bean class=\"StaticInnerClass\" factory-bean=\"ParentClass-bean\" ... />",
+    "Correct Answer": "A. <bean class=\"ParentClass$StaticInnerClass\" ... />"
+  },
+  {
+    "Sr. No.": 234,
+    "Question": "Question 29: Following are benefits of Stream API:",
+    "Option A": "ability to write in Functional Style programming",
+    "Option B": "perform Parallel and Pipelining operations",
+    "Option C": "ability to achieve better performance",
+    "Option D": "All of above",
+    "Correct Answer": "D. All of above"
+  },
+  {
+    "Sr. No.": 235,
+    "Question": "Question 31: Design pattern that separates object construction from its representation?",
+    "Option A": "Prototype",
+    "Option B": "Builder",
+    "Option C": "Both of the given options",
+    "Option D": "None of the given options",
+    "Correct Answer": "B. Builder"
+  },
+  {
+    "Sr. No.": 236,
+    "Question": "Question 32: Which of the following statements about MVC is true?",
+    "Option A": "MVC decouples views and models using a subscriber/notify protocol (i.e. the Observer pattern).",
+    "Option B": "Views are generally nested using a factory design pattern.",
+    "Option C": "The controller in MVC are generally heavy...",
+    "Option D": "MVC was a framework invented in 1980s...",
+    "Correct Answer": "A. MVC decouples views and models using a subscriber/notify protocol (i.e. the Observer pattern)."
+  },
+  {
+    "Sr. No.": 237,
+    "Question": "Question 33: Which of the following is a disadvantage of using a static factory method?",
+    "Option A": "Static factory methods, unlike constructors, have names.",
+    "Option B": "Static factory methods, unlike constructors, need not create a new object...",
+    "Option C": "Static factory methods, unlike constructors, can return an object of any subtype...",
+    "Option D": "Static factory methods often require classes to have private constructors. Such classes cannot be subclassed.",
+    "Correct Answer": "D. Static factory methods often require classes to have private constructors. Such classes cannot be subclassed."
+  },
+  {
+    "Sr. No.": 238,
+    "Question": "Question 34: Design pattern that provides a surrogate or placeholder for another object to control access to it?",
+    "Option A": "Singleton",
+    "Option B": "Proxy",
+    "Option C": "IOC",
+    "Option D": "None of this given options",
+    "Correct Answer": "B. Proxy"
+  },
+  {
+    "Sr. No.": 239,
+    "Question": "Question 36: What would get printed for the Spring code snippet with @Value(\"value is #{someBean}\") and properties.put(\"someBean\", \"oneBean\")?",
+    "Option A": "value is oneBean",
+    "Option B": "value is #{someBean}",
+    "Option C": "Throws org.springframework.expression.spel.SpelEvaluationException",
+    "Option D": "value is null",
+    "Correct Answer": "A. value is oneBean"
+  },
+  {
+    "Sr. No.": 240,
+    "Question": "Question 37: Spring provides a means to generate the primary key values from within one's application, via ___________.",
+    "Option A": "KeyGenerator Interface",
+    "Option B": "KeyMutator Interface",
+    "Option C": "DataFieldAutoIncrementer Interface",
+    "Option D": "None of the above",
+    "Correct Answer": "A. KeyGenerator Interface"
+  },
+  {
+    "Sr. No.": 241,
+    "Question": "Question 38: Which interface provides a mechanism to register objects that are created outside the container?",
+    "Option A": "DefaultListableBeanFactory",
+    "Option B": "AutowireCapableBeanFactory",
+    "Option C": "SimpleBeanFactory",
+    "Option D": "SharedBeanFactory",
+    "Correct Answer": "B. AutowireCapableBeanFactory"
+  },
+  {
+    "Sr. No.": 242,
+    "Question": "Question 39: Which of the following methods use RequestMapping with a class?",
+    "Option A": "RequestMapping is not supported for class and only for method",
+    "Option B": "Request mapping works well with multiple URI and not with class",
+    "Option C": "@Controller @RequestMapping(\"/home\") public class HomeController{...}",
+    "Option D": "@Controller @RequestMapping(\"/home\") private class HomeController{...}",
+    "Correct Answer": "C. @Controller @RequestMapping(\"/home\") public class HomeController{...}"
+  },
+  {
+    "Sr. No.": 243,
+    "Question": "Question 40: What are Spring JDBC templates used for?",
+    "Option A": "Reading data",
+    "Option B": "Writing data",
+    "Option C": "Auto incrementing the keys",
+    "Option D": "All of the above",
+    "Correct Answer": "D. All of the above"
+  },
+  {
+    "Sr. No.": 244,
+    "Question": "Question 41: Which of the following annotation is provided to load a Spring container in application JUnit test?",
+    "Option A": "Component",
+    "Option B": "ContextConfiguration",
+    "Option C": "Configuration",
+    "Option D": "Configurable",
+    "Correct Answer": "B. ContextConfiguration"
+  },
+  {
+    "Sr. No.": 245,
+    "Question": "Question 42: What is the need for @EnableWebSecurity in the Spring Security snippet?",
+    "Option A": "@EnableWebSecurity annotation is used for specifically defining the security configurations needed in the application",
+    "Option B": "@EnableWebSecurity annotation is used for enabling Spring Security features in the web application",
+    "Option C": "@EnableWebSecurity is wrongly implemented in this code",
+    "Option D": "This code will throw an error since @EnableWebSecurity is not supported in Spring MVC",
+    "Correct Answer": "B. @EnableWebSecurity annotation is used for enabling Spring Security features in the web application"
+  },
+  {
+    "Sr. No.": 246,
+    "Question": "Question 43: The TransactionException that can be thrown by any of the PlatformTransactionManager interface's is what kind of exception?",
+    "Option A": "Checked Exception",
+    "Option B": "Unchecked exception",
+    "Option C": "Both A and B are correct",
+    "Option D": "None of the above",
+    "Correct Answer": "B. Unchecked exception"
+  },
+  {
+    "Sr. No.": 247,
+    "Question": "Question 44: How can an entire class be mapped as immutable?",
+    "Option A": "By using the mutable=\"false\" attribute...",
+    "Option B": "By using the immutable=\"true\" attribute in the class mapping.",
+    "Option C": "By using the immutable=\"no\" attribute...",
+    "Option D": "None of the above",
+    "Correct Answer": "B. By using the immutable=\"true\" attribute in the class mapping."
+  },
+  {
+    "Sr. No.": 248,
+    "Question": "Question 45: Which of the following is the most common configuration method of Hibernate configuration?",
+    "Option A": "Mapping files",
+    "Option B": "web.config",
+    "Option C": "cfg.xml",
+    "Option D": "none of the above",
+    "Correct Answer": "A. Mapping files"
+  },
+  {
+    "Sr. No.": 249,
+    "Question": "Question 46: Which of the following is not an extension interface provided by Hibernate?",
+    "Option A": "TransactionFactory",
+    "Option B": "ConnectionProvider",
+    "Option C": "TransientFactory",
+    "Option D": "CacheProvider",
+    "Correct Answer": "C. TransientFactory"
+  },
+  {
+    "Sr. No.": 250,
+    "Question": "Question 47: Which of the following statements about Hibernate Interfaces (R1, R2, R3) is correct?",
+    "Option A": "R1",
+    "Option B": "R1 & R2",
+    "Option C": "R1, R2 & R3",
+    "Option D": "All of the above",
+    "Correct Answer": "D. All of the above"
+  },
+  {
+    "Sr. No.": 251,
+    "Question": "Question 48: In which of the following version of Java Optional Class was introduced?",
+    "Option A": "Java 7",
+    "Option B": "Java 8",
+    "Option C": "Java 9",
+    "Option D": "",
+    "Correct Answer": "B. Java 8"
+  },
+  {
+    "Sr. No.": 252,
+    "Question": "Question 49: Which of the following correctly describes the failedStage() method of CompletableFuture interface?",
+    "Option A": "Returns a new incomplete CompletableFuture...",
+    "Option B": "Returns a new CompletableFuture which is already completed...",
+    "Option C": "Returns a new CompletionStage which is already completed with the given value...",
+    "Option D": "Returns a new CompletionStage which is already completed exceptionally with the given exception...",
+    "Correct Answer": "D. Returns a new CompletionStage which is already completed exceptionally with the given exception..."
+  },
+  {
+    "Sr. No.": 253,
+    "Question": "Question 50: Which of the following is a correct statement about try-with-resources statement in Java 9?",
+    "Option A": "Prior to Java 7 resources are to be declared before try or inside try statement.",
+    "Option B": "Any object implementing java.lang.AutoCloseable or java.io.Closeable interface can be used as a resource.",
+    "Option C": "The try-with-resource statement ensures that each resource is closed after the requirement finishes.",
+    "Option D": "All of the above.",
+    "Correct Answer": "D. All of the above."
+  },
+  {
+    "Sr. No.": 254,
+    "Question": "Question #1: Which of the following data structures is likely to be used by a TreeMap?",
+    "Option A": "Binary Search Tree",
+    "Option B": "Hash Table",
+    "Option C": "Red Black Tree",
+    "Option D": "Array",
+    "Correct Answer": "C (Red Black Tree)"
+  },
+  {
+    "Sr. No.": 255,
+    "Question": "Question #2: ConcurrentHashMap uses object level lock for synchronizing access by multiple threads.",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "Not provided",
+    "Option D": "Not provided",
+    "Correct Answer": "B (FALSE)"
+  },
+  {
+    "Sr. No.": 256,
+    "Question": "Question #4: A lambda expression can be passed as an argument to a method where a functional interface is expected, provided that the expression matches the signature and return type...",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "Not provided",
+    "Option D": "Not provided",
+    "Correct Answer": "A (TRUE)"
+  },
+  {
+    "Sr. No.": 257,
+    "Question": "Question #5: A lambda expression must always have a return type",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "Not provided",
+    "Option D": "Not provided",
+    "Correct Answer": "B (FALSE)"
+  },
+  {
+    "Sr. No.": 258,
+    "Question": "Question #6: For look up of indexed elements a LinkedList is more efficient than an ArrayList.",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "Not provided",
+    "Option D": "Not provided",
+    "Correct Answer": "B (FALSE)"
+  },
+  {
+    "Sr. No.": 259,
+    "Question": "Question #8: In Java 8, which of the following JavaScript engine was replaced with Nashorn?",
+    "Option A": "V8",
+    "Option B": "Inscript",
+    "Option C": "Narcissus",
+    "Option D": "Rhino",
+    "Correct Answer": "D (Rhino)"
+  },
+  {
+    "Sr. No.": 260,
+    "Question": "Question #9: Explain byte code in Java?",
+    "Option A": "Code generated by a Java compiler",
+    "Option B": "Name of Java source code file",
+    "Option C": "Code generated by a Java Virtual Machine",
+    "Option D": "Block of code written inside a class",
+    "Correct Answer": "A (Code generated by a Java compiler)"
+  },
+  {
+    "Sr. No.": 261,
+    "Question": "Question #10: What is garbage collection in the context of Java?",
+    "Option A": "Java deletes all unused java files on the system.",
+    "Option B": "Memory used by the object with no reference is automatically reclaimed.",
+    "Option C": "The JVM cleans output of Java program with error.",
+    "Option D": "Any unused package in a program automatically gets deleted.",
+    "Correct Answer": "B (Memory used by the object with no reference is automatically reclaimed.)"
+  },
+  {
+    "Sr. No.": 262,
+    "Question": "Question #11: Consider the lambda expression name -> System.out.println(name). Select the best single choice...",
+    "Option A": "This expressions will not compile because the type of argument 'name' is not defined",
+    "Option B": "The expression is valid and will perfectly compile and run",
+    "Option C": "The expression is invalid because there is no return type specified.",
+    "Option D": "None of the above",
+    "Correct Answer": "B (The expression is valid and will perfectly compile and run)"
+  },
+  {
+    "Sr. No.": 263,
+    "Question": "Question #13: Which one of the following is equivalent to line 1 (void show();) inside interface ITest?",
+    "Option A": "public final void show()",
+    "Option B": "public abstract void show();",
+    "Option C": "public abstract final void show();",
+    "Option D": "public static void show();",
+    "Correct Answer": "B (public abstract void show();)"
+  },
+  {
+    "Sr. No.": 264,
+    "Question": "Question #17: Which of the following best describes the method void assertNull(Object object)?",
+    "Option A": "Check that a condition is false",
+    "Option B": "Check that an object is null",
+    "Option C": "Check that an object is not null",
+    "Option D": "Check that a condition is true",
+    "Correct Answer": "B (Check that an object is null)"
+  },
+  {
+    "Sr. No.": 265,
+    "Question": "Question #18: Which of the following can be used in place of 'Overloading'?",
+    "Option A": "Virtual polymorphism",
+    "Option B": "Transient polymorphism",
+    "Option C": "Ad hoc polymorphism",
+    "Option D": "Pseudo polymorphism",
+    "Correct Answer": "C (Ad hoc polymorphism)"
+  },
+  {
+    "Sr. No.": 266,
+    "Question": "Question #19: Select the correct option: Java Stream API can be used for applying Map-Reduce kind of transformations on collections.",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "Not provided",
+    "Option D": "Not provided",
+    "Correct Answer": "A (true)"
+  },
+  {
+    "Sr. No.": 267,
+    "Question": "Question #20: Which structural patterns uses shared objects that can be used in multiple contexts simultaneously so as to minimize memory use?",
+    "Option A": "Flyweight",
+    "Option B": "Singleton",
+    "Option C": "Prototype",
+    "Option D": "None of the given options",
+    "Correct Answer": "A (Flyweight)"
+  },
+  {
+    "Sr. No.": 268,
+    "Question": "Question #22: What would be the output of the following code? float f = 1.0/0.0;",
+    "Option A": "java.lang.ArithmeticException",
+    "Option B": "Infinity",
+    "Option C": "Compile time exception",
+    "Option D": 0,
+    "Correct Answer": "B (Infinity)"
+  },
+  {
+    "Sr. No.": 269,
+    "Question": "Question #23: If we try to invoke start() method on a dead thread, then which of the following will happen?",
+    "Option A": "Thread will become Runnable again.",
+    "Option B": "Thread will become Running again.",
+    "Option C": "Thread will not come alive again but the program will not throw any exception",
+    "Option D": "Runtime exception will occur.",
+    "Correct Answer": "D (Runtime exception will occur.)"
+  },
+  {
+    "Sr. No.": 270,
+    "Question": "Question #25: Which of these is not a form of polymorphism?",
+    "Option A": "Function Overloading",
+    "Option B": "Abstract Classes",
+    "Option C": "Operator Overloading",
+    "Option D": "Virtual Functions",
+    "Correct Answer": "B (Abstract Classes)"
+  },
+  {
+    "Sr. No.": 271,
+    "Question": "Question #26: putIfAbsent(key, value) is a part of which collection?",
+    "Option A": "ConcurrentMap",
+    "Option B": "HashMap",
+    "Option C": "ArrayList",
+    "Option D": "SortedMap",
+    "Correct Answer": "A (ConcurrentMap)"
+  },
+  {
+    "Sr. No.": 272,
+    "Question": "Question #28: As per design patterns concepts, which of the following options is a behavioral pattern?",
+    "Option A": "Adapter",
+    "Option B": "Proxy",
+    "Option C": "Iterator",
+    "Option D": "Prototype",
+    "Correct Answer": "C (Iterator)"
+  },
+  {
+    "Sr. No.": 273,
+    "Question": "Question #29: Which design pattern separates object construction from its representation so that the same construction processes can create different representations?",
+    "Option A": "Prototype",
+    "Option B": "Builder",
+    "Option C": "Both of the given options",
+    "Option D": "None of the given options",
+    "Correct Answer": "B (Builder)"
+  },
+  {
+    "Sr. No.": 274,
+    "Question": "Question #30: If two classes are defined by a composition relation, which of the following statements is true?",
+    "Option A": "Composite class has component class as collaborator.",
+    "Option B": "Component class has composite class as collaborator.",
+    "Option C": "None of the classes contain collaborator as other class.",
+    "Option D": "None of the given options",
+    "Correct Answer": "A (Composite class has component class as collaborator.)"
+  },
+  {
+    "Sr. No.": 275,
+    "Question": "Question #31: Which design pattern creates an instance of several families of classes and provides an interface for creating families of related or dependent objects without specifying their concrete classes?",
+    "Option A": "Abstract Factory",
+    "Option B": "Factory",
+    "Option C": "Adapter",
+    "Option D": "None of the given options",
+    "Correct Answer": "A (Abstract Factory)"
+  },
+  {
+    "Sr. No.": 276,
+    "Question": "Question #32: Which of the below is invalid identifier with the main method?",
+    "Option A": "public",
+    "Option B": "static",
+    "Option C": "private",
+    "Option D": "final",
+    "Correct Answer": "C (private)"
+  },
+  {
+    "Sr. No.": 277,
+    "Question": "Question #33: What is JVM?",
+    "Option A": "Bootstrap",
+    "Option B": "Interpretor",
+    "Option C": "Extension",
+    "Option D": "Compiler",
+    "Correct Answer": "B (Interpretor)"
+  },
+  {
+    "Sr. No.": 278,
+    "Question": "Question #34: Which component is responsible for converting byte code into machine specific code?",
+    "Option A": "JVM",
+    "Option B": "JDK",
+    "Option C": "JIT",
+    "Option D": "JRE",
+    "Correct Answer": "C (JIT)"
+  },
+  {
+    "Sr. No.": 279,
+    "Question": "Question #35: Which of the following best describes the word Object in OOP?",
+    "Option A": "Combining message with data",
+    "Option B": "Combining variable with data type",
+    "Option C": "Combining entity with attribute",
+    "Option D": "Combining class with methods",
+    "Correct Answer": "D (Combining class with methods)"
+  },
+  {
+    "Sr. No.": 280,
+    "Question": "Question #36: Based on which jar file in JDK 1.7 version do JCL classes run?",
+    "Option A": "rt.jar",
+    "Option B": "tr.jar",
+    "Option C": "tool.jar",
+    "Option D": "sa-jdi",
+    "Correct Answer": "A (rt.jar)"
+  },
+  {
+    "Sr. No.": 281,
+    "Question": "Question #39: What is the output of the following program? (StringBuffer hash codes: a.hashCode() == b.hashCode())",
+    "Option A": "false false false",
+    "Option B": "false true false",
+    "Option C": "true false false",
+    "Option D": "true true true",
+    "Correct Answer": "A (false false false)"
+  },
+  {
+    "Sr. No.": 282,
+    "Question": "Question #40: Which of the following is the interface in java.awt package?",
+    "Option A": "Color",
+    "Option B": "Component",
+    "Option C": "Cursor",
+    "Option D": "Stroke",
+    "Correct Answer": "D (Stroke)"
+  },
+  {
+    "Sr. No.": 283,
+    "Question": "Question #41: Which of the following codes compile successfully? (NumberFormat.parse() with different arguments)",
+    "Option A": "nf.parse(23) (int)",
+    "Option B": "nf.parse('23') (char)",
+    "Option C": "nf.parse(\"23\") (String)",
+    "Option D": "nf.parse((float)23)",
+    "Correct Answer": "C (The option that uses nf.parse(\"23\") with a String argument)"
+  },
+  {
+    "Sr. No.": 284,
+    "Question": "Question #42: Which of the following Java keywords is used to utilize the JCL classes in your Java class?",
+    "Option A": "Header",
+    "Option B": "Import",
+    "Option C": "Package",
+    "Option D": "Include",
+    "Correct Answer": "B (Import)"
+  },
+  {
+    "Sr. No.": 285,
+    "Question": "Question #43: Which of the following statements related to java.beans package is/are correct?",
+    "Option A": "Only A",
+    "Option B": "A and B",
+    "Option C": "A and C",
+    "Option D": "B and C",
+    "Correct Answer": "D (Only A)"
+  },
+  {
+    "Sr. No.": 286,
+    "Question": "Question #44: What would the given code snippet print? (boolean testB = false; if(testB = true))",
+    "Option A": false,
+    "Option B": true,
+    "Option C": "Compile time error",
+    "Option D": "None of the above",
+    "Correct Answer": "B (TRUE)"
+  },
+  {
+    "Sr. No.": 287,
+    "Question": "Question #45: Static members are not inherited to a sub class.",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "Not provided",
+    "Option D": "Not provided",
+    "Correct Answer": "B (false)"
+  },
+  {
+    "Sr. No.": 288,
+    "Question": "Question #46: What is the error in this code? byte temp = 50; temp = temp * 40;",
+    "Option A": "temp can not contain value 200, limited by its range.",
+    "Option B": "operator has converted temp * 40 into int, which can not be converted without casting.",
+    "Option C": "temp can not contain value 50.",
+    "Option D": "No error in this code",
+    "Correct Answer": "B (operator has converted temp * 40 into int, which can not be converted without casting.)"
+  },
+  {
+    "Sr. No.": 289,
+    "Question": "Question #47: Which of the following correctly describes the ifPresentOrElse() method of Optional class?",
+    "Option A": "If a value is present, it returns a sequential Stream containing only that value...",
+    "Option B": "If a value is present, performs the given action with the value, otherwise performs the empty-based action.",
+    "Option C": "Both Option 1 and 2",
+    "Option D": "",
+    "Correct Answer": "B (If a value is present, performs the given action with the value, otherwise performs the empty-based action.)"
+  },
+  {
+    "Sr. No.": 290,
+    "Question": "Question #48: Which of the following is a correct statement about Process API in Java 9?",
+    "Option A": "ProcessHandle class also provides method to check processes' liveliness...",
+    "Option B": "ProcessHandle has onExit method, the CompletableFuture class can be used to perform action asynchronously when process exits.",
+    "Option C": "Both Option 1 and 2",
+    "Option D": "",
+    "Correct Answer": "C (Both Option 1 and 2)"
+  },
+  {
+    "Sr. No.": 291,
+    "Question": "Question #49: Which of the following is a correct statement about try-with-resources statement in Java 9?",
+    "Option A": "Prior to Java 9, resources are to be declared before try or inside try statement",
+    "Option B": "Any object implementing java.lang.AutoCloseable or java.io.Closeable interface can be used as a resource.",
+    "Option C": "The try-with-resources statement ensures that each resource is closed after the requirement finishes",
+    "Option D": "All of the above",
+    "Correct Answer": "D (All of the above)"
+  },
+  {
+    "Sr. No.": 292,
+    "Question": "Question #50: Java 9 main goals are:",
+    "Option A": "To make JDK and Java Standard Edition platform modular based...",
+    "Option B": "To improve the overall security of the JDK and Java Implementations.",
+    "Option C": "Both Option 1 and 2",
+    "Option D": "",
+    "Correct Answer": "C (Both Option 1 and 2)"
+  },
+  {
+    "Sr. No.": 293,
+    "Question": "Q 1: Message queues also support priority configuration, so that high priority messages are processed first. Which of the following are the correct ActiveMQ configuration options? 1",
+    "Option A": "prioritizedMsg=true",
+    "Option B": "processMsg=true",
+    "Option C": "msgPriorityQueue=true",
+    "Option D": "msgPriorityQueue=false",
+    "Correct Answer": "A (prioritizedMsg=true)"
+  },
+  {
+    "Sr. No.": 294,
+    "Question": "Q 2: Which is the correct way to configure ActiveMQ to use both TCP and UDP protocols on different ports? 2",
+    "Option A": "Not clearly visible in options",
+    "Option B": "Not clearly visible in options",
+    "Option C": "Not clearly visible in options",
+    "Option D": "Not clearly visible in options",
+    "Correct Answer": "A (The correct answer involves configuring two separate broker transports in the ActiveMQ configuration file, one for TCP and one for UDP, each on a different port.)"
+  },
+  {
+    "Sr. No.": 295,
+    "Question": "Q 3: In Deployment Descriptor, which sub-element in the <listener> tag defines a listener? 3",
+    "Option A": "<servlet-name>",
+    "Option B": "<servlet-mapping>",
+    "Option C": "<listener-name>",
+    "Option D": "<listener-class>",
+    "Correct Answer": "D (<listener-class>)"
+  },
+  {
+    "Sr. No.": 296,
+    "Question": "Q 4: Which of the following is not a HTTP request method? 4",
+    "Option A": "PUT",
+    "Option B": "HEAD",
+    "Option C": "DELETE",
+    "Option D": "RESUME",
+    "Correct Answer": "D (RESUME)"
+  },
+  {
+    "Sr. No.": 297,
+    "Question": "Q 5: Which of the following is true about methods in Java? (Use the most appropriate one) 5",
+    "Option A": "All methods in java are implicitly final.",
+    "Option B": "All non-static, non-private and non-final methods are explicitly virtual.",
+    "Option C": "All final static methods are explicitly virtual.",
+    "Option D": "None of the above",
+    "Correct Answer": "B (All non-static, non-private and non-final methods are explicitly virtual.)"
+  },
+  {
+    "Sr. No.": 298,
+    "Question": "Q 6: What will be the output of the following code? (Try/Catch/Finally with throw new Exception(); in catch) 6",
+    "Option A": "Compilation Fails.",
+    "Option B": "Runtime Exception with no output.",
+    "Option C": "String \"In Finally\" will be printed and no exception will be thrown.",
+    "Option D": "String \"In Finally\" will be printed and a Runtime Exception will be thrown.",
+    "Correct Answer": "D (String \"In Finally\" will be printed and a Runtime Exception will be thrown.)"
+  },
+  {
+    "Sr. No.": 299,
+    "Question": "Q 9: Which one of the following is equivalent to line 1 (void show();) inside interface ITest? 7",
+    "Option A": "public final void show()",
+    "Option B": "public abstract void show();",
+    "Option C": "public abstract final void show();",
+    "Option D": "public static void show()",
+    "Correct Answer": "B (public abstract void show();)"
+  },
+  {
+    "Sr. No.": 300,
+    "Question": "Q 11: As per EJB concepts, the client can directly invoke which of the following methods? 8",
+    "Option A": "Business methods",
+    "Option B": "setSessionContext",
+    "Option C": "newInstance",
+    "Option D": "Not provided",
+    "Correct Answer": "A (Business methods)"
+  },
+  {
+    "Sr. No.": 301,
+    "Question": "Q 18: Consider an instance of a collection of type List<CharSequence>. 9",
+    "Option A": "This collection can contain only String types",
+    "Option B": "This collection can contain only CharSequence types",
+    "Option C": "This collection can contain both String and CharSequence types",
+    "Option D": "The collection can contain any Object",
+    "Correct Answer": "B (This collection can contain only CharSequence types)"
+  },
+  {
+    "Sr. No.": 302,
+    "Question": "Q 19: Which of the following is not introduced with Java 9? 10",
+    "Option A": "Module/Package Info",
+    "Option B": "Private Methods in Interfaces",
+    "Option C": "Lambda expressions",
+    "Option D": "HTML5 based java documentation",
+    "Correct Answer": "C (Lambda expressions)"
+  },
+  {
+    "Sr. No.": 303,
+    "Question": "Q 23: The Queue<E> interface represents which data structure? 11",
+    "Option A": "LIFO",
+    "Option B": "FIFO",
+    "Option C": "Both",
+    "Option D": "",
+    "Correct Answer": "B (FIFO)"
+  },
+  {
+    "Sr. No.": 304,
+    "Question": "Q 25: As per EJB concepts, the Transaction Attribute that ensures the method call, either client started or container started will always take place in a transaction. 12",
+    "Option A": "TX_SUPPORTS",
+    "Option B": "TX_MANDATORY",
+    "Option C": "TX_REQUIRED and TX_REQUIRES_NEW",
+    "Option D": "None of the given options",
+    "Correct Answer": "B (TX_MANDATORY)"
+  },
+  {
+    "Sr. No.": 305,
+    "Question": "Q 28: Which of the following beans can handle java.util.properties in Spring MVC? 13",
+    "Option A": "PropertyPlaceholderConfigurer",
+    "Option B": "PropertyOverrideConfigurer",
+    "Option C": "BeanNameAutoProxyCreator",
+    "Option D": "None of the given options",
+    "Correct Answer": "A (PropertyPlaceholderConfigurer)"
+  },
+  {
+    "Sr. No.": 306,
+    "Question": "Q 29: Following are benefits of using Stream API? 14",
+    "Option A": "Ability to write in functional style programming",
+    "Option B": "Perform parallel and pipelining operations",
+    "Option C": "Ability to achieve better performance",
+    "Option D": "All of above",
+    "Correct Answer": "D (All of above)"
+  },
+  {
+    "Sr. No.": 307,
+    "Question": "Q 30: Which of the following codes is using the DispatcherServlet in the most appropriate way? 15151515",
+    "Option A": "Options not clearly visible (likely code snippets)",
+    "Option B": "Options not clearly visible in images",
+    "Option C": "Options not clearly visible in images",
+    "Option D": "Options not clearly visible in images",
+    "Correct Answer": "D (The most appropriate way to configure DispatcherServlet is typically done in web.xml using <servlet> and <servlet-mapping> tags, mapping it to / or /*.do, and optionally setting the context file.)"
+  },
+  {
+    "Sr. No.": 308,
+    "Question": "Q 34: As per design patterns concepts, which of the following options is a behavioral pattern? 16",
+    "Option A": "Adapter",
+    "Option B": "Proxy",
+    "Option C": "Iterator",
+    "Option D": "Prototype",
+    "Correct Answer": "C (Iterator)"
+  },
+  {
+    "Sr. No.": 309,
+    "Question": "Q 37: What are Spring JDBC templates used for? 17",
+    "Option A": "Reading data",
+    "Option B": "Writing data",
+    "Option C": "Auto-incrementing the keys",
+    "Option D": "All of the above",
+    "Correct Answer": "D (All of the above)"
+  },
+  {
+    "Sr. No.": 310,
+    "Question": "Q 39: Is it sufficient to annotate the classes with the @Transactional annotation for Spring Framework's declarative transaction implementation? 18",
+    "Option A": true,
+    "Option B": false,
+    "Option C": "Not provided",
+    "Option D": "Not provided",
+    "Correct Answer": "B (FALSE - you also need to enable transaction management, e.g., via XML or @EnableTransactionManagement)"
+  },
+  {
+    "Sr. No.": 311,
+    "Question": "Q 41: Which of the following proxies are used by Spring? 19",
+    "Option A": "JDK Dynamic Proxies",
+    "Option B": "CGLIB Proxies",
+    "Option C": "Not provided",
+    "Option D": "Not provided",
+    "Correct Answer": "A & B (Both JDK Dynamic Proxies and CGLIB Proxies)"
+  },
+  {
+    "Sr. No.": 312,
+    "Question": "Q 42: What does Aspect Oriented Programming decompose programs into? 20",
+    "Option A": "Objects",
+    "Option B": "Hierarchical Objects",
+    "Option C": "Concerns",
+    "Option D": "None of the above",
+    "Correct Answer": "C (Concerns)"
+  },
+  {
+    "Sr. No.": 313,
+    "Question": "Q 43: Which of the following codes will implement a bean to include JNDI data source in Spring MVC? 21",
+    "Option A": "Options not clearly visible (likely XML or Java Config)",
+    "Option B": "Options not clearly visible in images",
+    "Option C": "Options not clearly visible in images",
+    "Option D": "Options not clearly visible in images",
+    "Correct Answer": "C (The correct implementation uses <jee:jndi-lookup> in XML or @Bean returning a JndiObjectFactoryBean in Java config.)"
+  },
+  {
+    "Sr. No.": 314,
+    "Question": "Q 45: Assuming Oil, Apple, Beans, Dogs are persisted objects, which of the following HQL statements returns all persistent objects? 22",
+    "Option A": "from java.lang.Object",
+    "Option B": "from Object",
+    "Option C": "select * from Object",
+    "Option D": "from All",
+    "Correct Answer": "A (from java.lang.Object - Note: This is an unusual HQL query; HQL usually queries mapped entity names, e.g., from Oil. The most direct HQL equivalent for retrieving all mapped objects, though highly inefficient, is likely intended.)"
+  },
+  {
+    "Sr. No.": 315,
+    "Question": "Q 46: Answer the following questions based on your knowledge of Hibernate. Which of the following is true? 23",
+    "Option A": "Not clearly visible in options",
+    "Option B": "Not clearly visible in options",
+    "Option C": "Not clearly visible in options",
+    "Option D": "Not clearly visible in options",
+    "Correct Answer": "A (The intended answer is likely about a core Hibernate feature like Session or Configuration, but the options are incomplete.)"
+  },
+  {
+    "Sr. No.": 316,
+    "Question": "Q 47: Choose the correct option. Which of the following Hibernate objects is synchronized with database at the end of transaction? 24",
+    "Option A": "Configuration",
+    "Option B": "Session",
+    "Option C": "SessionFactory",
+    "Option D": "Query",
+    "Correct Answer": "B (Session - The Session is where persistent operations are queued and flushed/synchronized with the database upon transaction commit.)"
+  },
+  {
+    "Sr. No.": 317,
+    "Question": "Q 48: Which of the following annotation is provided to load a Spring container in application JUnit test? 25",
+    "Option A": "@Component",
+    "Option B": "@ContextConfiguration",
+    "Option C": "@Configuration",
+    "Option D": "@Configurable",
+    "Correct Answer": "B (@ContextConfiguration)"
+  },
+  {
+    "Sr. No.": 318,
+    "Question": "Q 50: Which of the following method is added to Map in Java 9? 26",
+    "Option A": "static Map.of(...)",
+    "Option B": "Map ofMap(...)",
+    "Option C": "Both Option 1 and 2",
+    "Option D": "",
+    "Correct Answer": "A (static Map.of(...))"
+  }
+]

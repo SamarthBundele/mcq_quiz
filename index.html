@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MCQ Practice</h1>
+            <div class="stats">
+                <span id="progress">Question <span id="current">1</span> of <span id="total">0</span></span>
+                <span id="score">Score: <span id="correct">0</span>/<span id="attempted">0</span></span>
+            </div>
+        </header>
+
+        <main id="quiz-container">
+            <div class="question-card">
+                <div class="question-number">Question <span id="q-number">1</span></div>
+                <div class="question-text" id="question"></div>
+                
+                <div class="options" id="options"></div>
+                
+                <div class="feedback" id="feedback"></div>
+                
+                <div class="controls">
+                    <button id="prev-btn" class="btn btn-secondary">Previous</button>
+                    <button id="next-btn" class="btn btn-primary">Next</button>
+                </div>
+            </div>
+        </main>
+
+        <div class="summary" id="summary" style="display: none;">
+            <h2>Practice Complete!</h2>
+            <div class="summary-stats">
+                <div class="stat-item">
+                    <div class="stat-value" id="final-score">0</div>
+                    <div class="stat-label">Correct Answers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="final-total">0</div>
+                    <div class="stat-label">Total Questions</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="final-percentage">0%</div>
+                    <div class="stat-label">Accuracy</div>
+                </div>
+            </div>
+            <button id="restart-btn" class="btn btn-primary">Start Over</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
